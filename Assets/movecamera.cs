@@ -15,10 +15,10 @@ public class movecamera : MonoBehaviour
     {
         mainCamera = GameObject.Find("Main Camera");
         camera = mainCamera.GetComponent<Camera>();
-        leftBound = -25f;
-        rightBound = 25f;
-        upBound = 8f;
-        downBound = -10.8f;
+        leftBound = -20.5f;
+        rightBound = 29.6f;
+        upBound = 3.8f;
+        downBound = -15.2f;
 
 }
 
