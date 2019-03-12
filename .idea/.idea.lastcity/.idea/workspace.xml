@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grid.cs" afterDir="false" />
-    </list>
+    <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Grid.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-399">
+            <state relative-caret-position="-364">
               <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <marker date="1552425067132" expanded="false" signature="6:106" ph="..." />
@@ -48,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1930" />
     <option name="y" value="-140" />
     <option name="width" value="1939" />
@@ -112,12 +110,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552417846750</updated>
       <workItem from="1552417868722" duration="352000" />
-      <workItem from="1552418333270" duration="6669000" />
+      <workItem from="1552418333270" duration="7068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7021000" />
+    <option name="totallyTimeSpent" value="7420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -130,7 +128,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-137" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -180,7 +177,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Grid.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
+        <state relative-caret-position="-364">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <marker date="1552425067132" expanded="false" signature="6:106" ph="..." />
