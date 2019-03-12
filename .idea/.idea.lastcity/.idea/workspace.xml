@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grid.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +15,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Grid.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+            <state relative-caret-position="-399">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
-                <marker date="1552422831153" expanded="false" signature="6:106" ph="..." />
-                <marker date="1552422831153" expanded="true" signature="141:1600" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="308:897" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="461:891" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="523:881" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="627:739" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="760:867" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="955:1598" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="1003:1592" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="1291:1374" ph="{...}" />
-                <marker date="1552422831153" expanded="true" signature="1391:1456" ph="{...}" />
+                <marker date="1552425067132" expanded="false" signature="6:106" ph="..." />
+                <marker date="1552425067132" expanded="true" signature="141:1950" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="348:937" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="501:931" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="563:921" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="667:779" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="800:907" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="995:1948" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="1043:1942" ph="{...}" />
+                <marker date="1552425067132" expanded="true" signature="1372:1932" ph="/* Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition); ... */" />
               </folding>
             </state>
           </provider>
@@ -53,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1930" />
     <option name="y" value="-140" />
     <option name="width" value="1939" />
@@ -117,12 +112,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552417846750</updated>
       <workItem from="1552417868722" duration="352000" />
-      <workItem from="1552418333270" duration="4719000" />
+      <workItem from="1552418333270" duration="6669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5071000" />
+    <option name="totallyTimeSpent" value="7021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,20 +180,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Grid.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="-399">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <marker date="1552422831153" expanded="false" signature="6:106" ph="..." />
-            <marker date="1552422831153" expanded="true" signature="141:1600" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="308:897" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="461:891" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="523:881" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="627:739" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="760:867" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="955:1598" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="1003:1592" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="1291:1374" ph="{...}" />
-            <marker date="1552422831153" expanded="true" signature="1391:1456" ph="{...}" />
+            <marker date="1552425067132" expanded="false" signature="6:106" ph="..." />
+            <marker date="1552425067132" expanded="true" signature="141:1950" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="348:937" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="501:931" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="563:921" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="667:779" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="800:907" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="995:1948" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="1043:1942" ph="{...}" />
+            <marker date="1552425067132" expanded="true" signature="1372:1932" ph="/* Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition); ... */" />
           </folding>
         </state>
       </provider>

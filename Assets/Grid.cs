@@ -6,9 +6,11 @@ using UnityEngine.Tilemaps;
 public class Grid : MonoBehaviour
 {
     public Tilemap tilemap;
-    public Grid world;
+    public GridLayout world;
     TileBase tile;
     TileBase[] allTiles;
+
+    public GameObject bluehouse;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,12 @@ public class Grid : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            
+           
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
+            Debug.Log(world.WorldToCell(worldPoint));
+            GameObject tile = Instantiate(bluehouse, worldPoint, Quaternion.identity);
+            /*
             Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition);
             Vector3Int position = new Vector3Int((int)pos.x, (int)pos.y, (int)pos.z);
 
@@ -55,7 +62,7 @@ public class Grid : MonoBehaviour
             
             //Debug.Log(Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition));
             
-            
+            */
         }
     }
 }
