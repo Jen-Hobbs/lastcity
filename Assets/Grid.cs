@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 public class Grid : MonoBehaviour
 {
     public Tilemap tilemap;
+    public Grid world;
     TileBase tile;
     TileBase[] allTiles;
     // Start is called before the first frame update
@@ -19,7 +20,7 @@ public class Grid : MonoBehaviour
         {
             for (int y = 0; y < bounds.size.y; y++)
             {
-                TileBase tile = allTiles[x + y * bounds.size.x];
+                tile = allTiles[x + y * bounds.size.x];
                 if (tile != null)
                 {
                     Debug.Log("x:" + x + " y:" + y + " tile:" + tile.name);
@@ -35,11 +36,26 @@ public class Grid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 pos = Camera.main.ScreenToWorldPoint((Vector2)Input.mousePosition);
             
-            Debug.Log(Camera.main.ScreenToWorldPoint((Vector2)Input.mousePosition));
+            Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition);
+            Vector3Int position = new Vector3Int((int)pos.x, (int)pos.y, (int)pos.z);
+
+            tilemap.GetTile(position);
+            if (tilemap.GetTile(position) != null)
+            {
+                Debug.Log("contains tile" + position);
+            }
+            else
+            {
+                Debug.Log(position);
+            }
+            
+            //Debug.Log(Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition));
+            
+            
         }
     }
 }
