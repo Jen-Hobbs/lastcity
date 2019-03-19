@@ -2,17 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class tree : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
+public class tree : Material{
+    public tree(int position) : base(position)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public override string type()
     {
-        
+        return "tree";
     }
 }

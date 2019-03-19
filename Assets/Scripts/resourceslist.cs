@@ -11,10 +11,6 @@ public static class resourceslist
         resources = r;
     }
 
-    public static void addResource(Vector3 position, Material type)
-    {
-        resources[position] = type;
-    }
 
     public static void deleteResource(Vector3 position)
     {

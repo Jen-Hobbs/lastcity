@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Material
+public abstract class Material
 {
     
     private int resource = 20;
@@ -29,10 +29,8 @@ public class Material
     {
         return position;
     }
-    public string type()
-    {
-        return "yes";
-    }
+
+    public abstract string type();
 
     public int getResource()
     {

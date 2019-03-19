@@ -5,12 +5,13 @@ using UnityEngine;
 public class map : MonoBehaviour
 {
     public GridLayout world;
-    public GameObject check;
     private GameObject[] person;
     private GameObject[] tree;
     private GameObject[] rock;
     private GameObject[] house;
-    private Dictionary<Vector3, Material> objects;
+    private Dictionary<Vector3, Material> materials;
+    private Dictionary<Vector3, string> buildings;
+    private HashSet<Vector3> people;
 
     
     // Start is called before the first frame update
@@ -41,24 +42,31 @@ public class map : MonoBehaviour
         {
             Debug.Log("no people");
         }
-        objects = new Dictionary<Vector3, Material>();
+        materials = new Dictionary<Vector3, Material>();
         for (int i = 0; i < tree.Length; i++)
         {
-            Material r = new Material(i);
-            objects[world.WorldToCell(tree[i].transform.position)] = r;
+            Material r = new tree(i);
+            materials[world.WorldToCell(tree[i].transform.position)] = r;
         }
 
         for (int i = 0; i < rock.Length; i++)
         {
-            Material r = new Material(i);
-            objects[world.WorldToCell(rock[i].transform.position)] = r;
+            Material r = new Rock(i);
+            materials[world.WorldToCell(rock[i].transform.position)] = r;
         }
-/*
+
         for (int i = 0; i < house.Length; i++)
         {
-            objects[world.WorldToCell(house[i].transform.position)] = "house";
-        }*/
-        resourceslist.setResources(objects);
+            buildings[world.WorldToCell(house[i].transform.position)] = "house";
+        }
+
+        for (int i = 0; i < people.Count; i++)
+        {
+            people.Add(world.WorldToCell(house[i].transform.position));
+        }
+        resourceslist.setResources(materials);
+        personlist.setPeople(people);
+        buildinglist.setBuildings(buildings);
         //Debug.Log(world.WorldToCell(check.transform.position));
     }
     // Update is called once per frame
@@ -68,16 +76,24 @@ public class map : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
-            if (objects.ContainsKey(world.WorldToCell(worldPoint)))
+            if (materials.ContainsKey(world.WorldToCell(worldPoint)))
             {
-                Debug.Log(objects[world.WorldToCell(worldPoint)].getResource());
-                objects[world.WorldToCell(worldPoint)].farm();
-                if (objects[world.WorldToCell(worldPoint)].getResource() == 0)
+                Debug.Log(materials[world.WorldToCell(worldPoint)].getResource());
+                materials[world.WorldToCell(worldPoint)].farm();
+                if (materials[world.WorldToCell(worldPoint)].getResource() == 0)
                 {
-                    
-                    Destroy(tree[objects[world.WorldToCell(worldPoint)].getPosition()]);
-                    objects.Remove(world.WorldToCell(worldPoint));
+                    if (materials[world.WorldToCell(worldPoint)].type() == "tree")
+                    {
+                        Destroy(tree[materials[world.WorldToCell(worldPoint)].getPosition()]);
+                        resourceslist.deleteResource(world.WorldToCell(worldPoint));
+                    }
+                    else if (materials[world.WorldToCell(worldPoint)].type() == "rock")
+                    {
+                        Destroy(rock[materials[world.WorldToCell(worldPoint)].getPosition()]);
+                        resourceslist.deleteResource(world.WorldToCell(worldPoint));
+                    }
                 }
+                
             }
             
             

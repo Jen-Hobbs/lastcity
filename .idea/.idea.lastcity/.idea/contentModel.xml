@@ -9,11 +9,13 @@
         <e p="GameOverManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Building.cs" t="Include" />
+          <e p="buildinglist.cs" t="Include" />
           <e p="Game.cs" t="Include" />
           <e p="Grid.cs" t="Include" />
           <e p="map.cs" t="Include" />
           <e p="material.cs" t="Include" />
           <e p="movecamera.cs" t="Include" />
+          <e p="personlist.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="resources.cs" t="Include" />
           <e p="resourceslist.cs" t="Include" />

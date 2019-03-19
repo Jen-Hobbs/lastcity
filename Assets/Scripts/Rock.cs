@@ -7,7 +7,7 @@ public class Rock : Material
     public Rock(int position) : base(position)
     {
     }
-    public string type()
+    public override string type()
     {
         return "rock";
     }
