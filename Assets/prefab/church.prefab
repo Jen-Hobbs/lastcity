@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3678823407608991814}
   m_Layer: 0
   m_Name: church
-  m_TagString: Untagged
+  m_TagString: house
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

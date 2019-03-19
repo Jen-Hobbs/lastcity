@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 1829057468623340206}
   m_Layer: 0
   m_Name: girl2
-  m_TagString: Untagged
+  m_TagString: person
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

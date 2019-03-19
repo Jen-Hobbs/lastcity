@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4269722178750245687}
   - component: {fileID: 4418090160677826102}
   m_Layer: 0
-  m_Name: backyard_40
-  m_TagString: Untagged
+  m_Name: stone2
+  m_TagString: rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
