@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c351de3994bd8cf4a88894b8940ff037
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tilemap: {instanceID: 0}
+  - world: {instanceID: 0}
+  - bluehouse: {fileID: 8551300968560226621, guid: 372458efbfec54148956e867eb1a58ce,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
