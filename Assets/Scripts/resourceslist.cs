@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,5 +21,10 @@ public static class resourceslist
     public static Material getResource(Vector3 position)
     {
         return resources[position];
+    }
+
+    public static Boolean containsResource(Vector3 position)
+    {
+        return resources.ContainsKey(position);
     }
 }

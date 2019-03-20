@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+
 //static class within grid that stores all objects
 public class map : MonoBehaviour
 {
@@ -12,7 +14,7 @@ public class map : MonoBehaviour
     private Dictionary<Vector3, Material> materials;
     private Dictionary<Vector3, string> buildings;
     private HashSet<Vector3> people;
-
+    public GameObject trials;
     
     // Start is called before the first frame update
     void Start()
@@ -54,9 +56,10 @@ public class map : MonoBehaviour
             Material r = new Rock(i);
             materials[world.WorldToCell(rock[i].transform.position)] = r;
         }
-
+        Debug.Log("house" + house.Length);
         for (int i = 0; i < house.Length; i++)
         {
+            Debug.Log(i);
             buildings[world.WorldToCell(house[i].transform.position)] = "house";
         }
 
@@ -64,9 +67,9 @@ public class map : MonoBehaviour
         {
             people.Add(world.WorldToCell(house[i].transform.position));
         }
-        resourceslist.setResources(materials);
-        personlist.setPeople(people);
-        buildinglist.setBuildings(buildings);
+        //resourceslist.setResources(materials);
+        //personlist.setPeople(people);
+        //buildinglist.setBuildings(buildings);
         //Debug.Log(world.WorldToCell(check.transform.position));
     }
     // Update is called once per frame
@@ -76,23 +79,35 @@ public class map : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
-            if (materials.ContainsKey(world.WorldToCell(worldPoint)))
+            Vector3 cellPoint = world.WorldToCell(worldPoint);
+            if (materials.ContainsKey(cellPoint))
             {
-                Debug.Log(materials[world.WorldToCell(worldPoint)].getResource());
-                materials[world.WorldToCell(worldPoint)].farm();
-                if (materials[world.WorldToCell(worldPoint)].getResource() == 0)
+                Debug.Log(materials[cellPoint].getResource());
+                materials[cellPoint].farm();
+                if (materials[cellPoint].getResource() == 0)
                 {
-                    if (materials[world.WorldToCell(worldPoint)].type() == "tree")
+                    if (materials[cellPoint].type() == "tree")
                     {
-                        Destroy(tree[materials[world.WorldToCell(worldPoint)].getPosition()]);
-                        resourceslist.deleteResource(world.WorldToCell(worldPoint));
+                        Destroy(tree[materials[cellPoint].getPosition()]);
+                        //Debug.Log(resourceslist.getResource(world.WorldToCell(worldPoint)));
+                        materials.Remove((cellPoint));
                     }
-                    else if (materials[world.WorldToCell(worldPoint)].type() == "rock")
+                    else if (materials[cellPoint].type() == "rock")
                     {
-                        Destroy(rock[materials[world.WorldToCell(worldPoint)].getPosition()]);
-                        resourceslist.deleteResource(world.WorldToCell(worldPoint));
+                        Destroy(rock[materials[cellPoint].getPosition()]);
+                        materials.Remove(cellPoint);
                     }
                 }
+                
+            }
+
+            if (!materials.ContainsKey(world.WorldToCell(worldPoint)))
+            {
+                GameObject tile = Instantiate(trials, worldPoint, Quaternion.identity);
+                Material r = new Rock(materials.Count);
+                materials.Add(cellPoint, r);
+                //Debug.Log(GameObject.FindWithTag("building"));
+                //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);
                 
             }
             
