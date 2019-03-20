@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class tree : Material{
-    public tree(int position) : base(position)
+    public tree(int position, GameObject gameObject) : base(position, gameObject)
     {
     }
 

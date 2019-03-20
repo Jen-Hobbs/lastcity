@@ -47,13 +47,13 @@ public class map : MonoBehaviour
         materials = new Dictionary<Vector3, Material>();
         for (int i = 0; i < tree.Length; i++)
         {
-            Material r = new tree(i);
+            Material r = new tree(i, tree[i]);
             materials[world.WorldToCell(tree[i].transform.position)] = r;
         }
 
         for (int i = 0; i < rock.Length; i++)
         {
-            Material r = new Rock(i);
+            Material r = new Rock(i, rock[i]);
             materials[world.WorldToCell(rock[i].transform.position)] = r;
         }
         Debug.Log("house" + house.Length);
@@ -88,13 +88,13 @@ public class map : MonoBehaviour
                 {
                     if (materials[cellPoint].type() == "tree")
                     {
-                        Destroy(tree[materials[cellPoint].getPosition()]);
+                        Destroy(materials[cellPoint].GetGameObject());
                         //Debug.Log(resourceslist.getResource(world.WorldToCell(worldPoint)));
                         materials.Remove((cellPoint));
                     }
                     else if (materials[cellPoint].type() == "rock")
                     {
-                        Destroy(rock[materials[cellPoint].getPosition()]);
+                        Destroy(materials[cellPoint].GetGameObject());
                         materials.Remove(cellPoint);
                     }
                 }
@@ -104,7 +104,7 @@ public class map : MonoBehaviour
             if (!materials.ContainsKey(world.WorldToCell(worldPoint)))
             {
                 GameObject tile = Instantiate(trials, worldPoint, Quaternion.identity);
-                Material r = new Rock(materials.Count);
+                Material r = new Rock(materials.Count, tile);
                 materials.Add(cellPoint, r);
                 //Debug.Log(GameObject.FindWithTag("building"));
                 //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);

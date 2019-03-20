@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rock : Material
 {
-    public Rock(int position) : base(position)
+    public Rock(int position, GameObject gameObject) : base(position, gameObject)
     {
     }
     public override string type()

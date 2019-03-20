@@ -9,10 +9,12 @@ public abstract class Material
     private int resource = 20;
     private int resourceType;
     private int position;
+    private GameObject gameObject;
 
-    public Material(int pos)
+    public Material(int pos, GameObject g)
     {
         position = pos;
+        gameObject = g;
     }
     public int farm()
     {
@@ -24,7 +26,10 @@ public abstract class Material
         resource -= 10;
         return 10;
     }
-
+    public GameObject GetGameObject()
+    {
+        return gameObject;
+    }
     public int getPosition()
     {
         return position;
