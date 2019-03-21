@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/Grid.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/bluehouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/bluehouse.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,32 +64,32 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/map.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="120" column="122" selection-start-line="120" selection-start-column="122" selection-end-line="120" selection-end-column="122" />
+              <caret line="120" column="102" selection-start-line="120" selection-start-column="102" selection-end-line="120" selection-end-column="102" />
               <folding>
-                <marker date="1553187488174" expanded="false" signature="6:103" ph="..." />
-                <marker date="1553187488174" expanded="true" signature="216:5288" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="648:2396" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1035:1091" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1122:1177" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1208:1263" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1296:1352" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1455:1596" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1643:1784" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="1874:2047" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="2095:2187" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="2196:2390" ph="/* resourceslist.setResources(materials); ... */" />
-                <marker date="1553187488174" expanded="true" signature="2453:5286" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="2500:5280" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="2536:2708" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
-                <marker date="1553187488174" expanded="true" signature="3001:3815" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="3184:3784" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="3265:3530" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="3598:3766" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="3905:4076" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
-                <marker date="1553187488174" expanded="true" signature="4169:4848" ph="{...}" />
-                <marker date="1553187488174" expanded="true" signature="4641:4830" ph="/* Debug.Log(GameObject.FindWithTag(&quot;building&quot;)); ... */" />
-                <marker date="1553187488174" expanded="true" signature="4893:5109" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
-                <marker date="1553187488174" expanded="true" signature="5122:5270" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
+                <marker date="1553187575497" expanded="false" signature="6:103" ph="..." />
+                <marker date="1553187575497" expanded="true" signature="216:5281" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="648:2396" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1035:1091" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1122:1177" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1208:1263" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1296:1352" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1455:1596" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1643:1784" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="1874:2047" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="2095:2187" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="2196:2390" ph="/* resourceslist.setResources(materials); ... */" />
+                <marker date="1553187575497" expanded="true" signature="2453:5279" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="2500:5273" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="2536:2708" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
+                <marker date="1553187575497" expanded="true" signature="3001:3815" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="3184:3784" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="3265:3530" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="3598:3766" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="3905:4076" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
+                <marker date="1553187575497" expanded="true" signature="4169:4841" ph="{...}" />
+                <marker date="1553187575497" expanded="true" signature="4634:4823" ph="/* Debug.Log(GameObject.FindWithTag(&quot;building&quot;)); ... */" />
+                <marker date="1553187575497" expanded="true" signature="4886:5102" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
+                <marker date="1553187575497" expanded="true" signature="5115:5263" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
               </folding>
             </state>
           </provider>
@@ -218,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="614" />
     <option name="width" value="759" />
     <option name="height" value="745" />
@@ -292,12 +287,12 @@
       <workItem from="1552417868722" duration="352000" />
       <workItem from="1552418333270" duration="7068000" />
       <workItem from="1553016929875" duration="184000" />
-      <workItem from="1553019175508" duration="24338000" />
+      <workItem from="1553019175508" duration="24734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31942000" />
+    <option name="totallyTimeSpent" value="32338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +304,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.54160124" />
@@ -500,32 +495,32 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/map.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="120" column="122" selection-start-line="120" selection-start-column="122" selection-end-line="120" selection-end-column="122" />
+          <caret line="120" column="102" selection-start-line="120" selection-start-column="102" selection-end-line="120" selection-end-column="102" />
           <folding>
-            <marker date="1553187488174" expanded="false" signature="6:103" ph="..." />
-            <marker date="1553187488174" expanded="true" signature="216:5288" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="648:2396" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1035:1091" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1122:1177" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1208:1263" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1296:1352" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1455:1596" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1643:1784" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="1874:2047" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="2095:2187" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="2196:2390" ph="/* resourceslist.setResources(materials); ... */" />
-            <marker date="1553187488174" expanded="true" signature="2453:5286" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="2500:5280" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="2536:2708" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
-            <marker date="1553187488174" expanded="true" signature="3001:3815" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="3184:3784" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="3265:3530" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="3598:3766" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="3905:4076" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
-            <marker date="1553187488174" expanded="true" signature="4169:4848" ph="{...}" />
-            <marker date="1553187488174" expanded="true" signature="4641:4830" ph="/* Debug.Log(GameObject.FindWithTag(&quot;building&quot;)); ... */" />
-            <marker date="1553187488174" expanded="true" signature="4893:5109" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
-            <marker date="1553187488174" expanded="true" signature="5122:5270" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
+            <marker date="1553187575497" expanded="false" signature="6:103" ph="..." />
+            <marker date="1553187575497" expanded="true" signature="216:5281" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="648:2396" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1035:1091" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1122:1177" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1208:1263" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1296:1352" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1455:1596" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1643:1784" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="1874:2047" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="2095:2187" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="2196:2390" ph="/* resourceslist.setResources(materials); ... */" />
+            <marker date="1553187575497" expanded="true" signature="2453:5279" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="2500:5273" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="2536:2708" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
+            <marker date="1553187575497" expanded="true" signature="3001:3815" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="3184:3784" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="3265:3530" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="3598:3766" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="3905:4076" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
+            <marker date="1553187575497" expanded="true" signature="4169:4841" ph="{...}" />
+            <marker date="1553187575497" expanded="true" signature="4634:4823" ph="/* Debug.Log(GameObject.FindWithTag(&quot;building&quot;)); ... */" />
+            <marker date="1553187575497" expanded="true" signature="4886:5102" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
+            <marker date="1553187575497" expanded="true" signature="5115:5263" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
           </folding>
         </state>
       </provider>
