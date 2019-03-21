@@ -17,8 +17,8 @@ public class buildingMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-       // transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);
 
     }
 }

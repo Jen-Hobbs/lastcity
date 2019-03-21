@@ -59,6 +59,7 @@ public class map : MonoBehaviour
             materials[world.WorldToCell(rock[i].transform.position)] = r;
         }
         Debug.Log("house" + house.Length);
+        buildings = new Dictionary<Vector3, Building>();
         for (int i = 0; i < house.Length; i++)
         {
             Debug.Log(i);
