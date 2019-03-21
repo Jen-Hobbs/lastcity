@@ -7,13 +7,13 @@ using UnityEngine.Tilemaps;
 public class map : MonoBehaviour
 {
     public GridLayout world;
-    private GameObject[] person;
-    private GameObject[] tree;
-    private GameObject[] rock;
-    private GameObject[] house;
-    private Dictionary<Vector3, Material> materials;
-    private Dictionary<Vector3, Building> buildings;
-    private HashSet<Vector3> people;
+    public GameObject[] person;
+    public GameObject[] tree;
+    public GameObject[] rock;
+    public GameObject[] house;
+    public Dictionary<Vector3, Material> materials;
+    public Dictionary<Vector3, Building> buildings;
+    public HashSet<Vector3> people;
     public GameObject trials;
     
     // Start is called before the first frame update
@@ -61,12 +61,13 @@ public class map : MonoBehaviour
         {
             Debug.Log(i);
             Building b = new Building(i, house[i]);
-            buildings[world.WorldToCell(house[i].transform.position)] = b;
+            //buildings[world.WorldToCell(house[i].transform.position)] = b;
         }
 
-        for (int i = 0; i < people.Count; i++)
+        people = new HashSet<Vector3>();
+        for (int i = 0; i < person.Length; i++)
         {
-            people.Add(world.WorldToCell(house[i].transform.position));
+            people.Add(world.WorldToCell(person[i].transform.position));
         }
         //resourceslist.setResources(materials);
         //personlist.setPeople(people);

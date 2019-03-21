@@ -8,6 +8,7 @@ public class Game : MonoBehaviour
 {
     public Tile[,] tiles;
     public Player player;
+    public map map;
     public int turn;
 
     public Text foodText;
@@ -49,5 +50,27 @@ public class Game : MonoBehaviour
     {
         turn++;
         player.food -= player.population;
+
+        foreach (Vector3 v in map.people)
+        {
+            if(map.materials.ContainsKey(v))
+            {
+                map.materials[v].farm();
+                if(map.materials[v].type() == "tree")
+                {
+                    player.wood += 10;
+                }
+                if (map.materials[v].type() == "rock")
+                {
+                    player.stone += 10;
+                }
+
+                if(map.materials[v].getResource() == 0)
+                {
+                    Destroy(map.materials[v].GetGameObject());
+                    map.materials.Remove(v);
+                }
+            }
+        }
     }
 }
