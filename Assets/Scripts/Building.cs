@@ -4,14 +4,34 @@ using UnityEngine;
 
 public class Building
 {
-    string Name;
-    int woodCost;
-    int stoneCost;
 
-    public Building()
+    private int resource = 20;
+    private int resourceType;
+    private int position;
+    private GameObject gameObject;
+
+    public Building(int pos, GameObject g)
     {
-        Name = "Building";
-        woodCost = 0;
-        stoneCost = 0;
+        position = pos;
+        gameObject = g;
     }
+    public int build()
+    {
+        if (resource - 10 <= 0)
+        {
+            resource = 0;
+            return resource;
+        }
+        resource -= 10;
+        return 10;
+    }
+    public GameObject GetGameObject()
+    {
+        return gameObject;
+    }
+    public int getPosition()
+    {
+        return position;
+    }
+
 }

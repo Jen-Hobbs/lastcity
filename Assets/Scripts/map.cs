@@ -12,7 +12,7 @@ public class map : MonoBehaviour
     private GameObject[] rock;
     private GameObject[] house;
     private Dictionary<Vector3, Material> materials;
-    private Dictionary<Vector3, string> buildings;
+    private Dictionary<Vector3, Building> buildings;
     private HashSet<Vector3> people;
     public GameObject trials;
     
@@ -60,7 +60,8 @@ public class map : MonoBehaviour
         for (int i = 0; i < house.Length; i++)
         {
             Debug.Log(i);
-            buildings[world.WorldToCell(house[i].transform.position)] = "house";
+            Building b = new Building(i, house[i]);
+            buildings[world.WorldToCell(house[i].transform.position)] = b;
         }
 
         for (int i = 0; i < people.Count; i++)
@@ -100,16 +101,20 @@ public class map : MonoBehaviour
                 }
                 
             }
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-            if (!materials.ContainsKey(world.WorldToCell(worldPoint)))
-            {
-                GameObject tile = Instantiate(trials, worldPoint, Quaternion.identity);
-                Material r = new Rock(materials.Count, tile);
-                materials.Add(cellPoint, r);
-                //Debug.Log(GameObject.FindWithTag("building"));
-                //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);
+                Debug.Log("check");
+                if (hit != null && hit.collider == null)
+                {
+                    Debug.Log("check");
+                    GameObject tile = Instantiate(trials, worldPoint, Quaternion.identity);
+                    Building r = new Building(buildings.Count, tile);
+                    buildings.Add(cellPoint, r);
+                    //Debug.Log(GameObject.FindWithTag("building"));
+                    //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);
+                }
                 
-            }
+            
             
             
             /*
