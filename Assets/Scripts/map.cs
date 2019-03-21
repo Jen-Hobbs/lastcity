@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -15,7 +16,8 @@ public class map : MonoBehaviour
     private Dictionary<Vector3, Building> buildings;
     private HashSet<Vector3> people;
     public GameObject trials;
-    
+
+    private Vector2 mousePos;
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +80,12 @@ public class map : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            
+            //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            // transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);
+
+            
+            
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
             Vector3 cellPoint = world.WorldToCell(worldPoint);
@@ -102,12 +110,15 @@ public class map : MonoBehaviour
                 
             }
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-
+            //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            //transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);
                 Debug.Log("check");
                 if (hit != null && hit.collider == null)
                 {
+                    Debug.Log("cell" + cellPoint);
+                    Debug.Log("mouse" + worldPoint);
                     Debug.Log("check");
-                    GameObject tile = Instantiate(trials, worldPoint, Quaternion.identity);
+                    GameObject tile = Instantiate(trials, new Vector3((Mathf.Round((worldPoint.x)/2)*2), (Mathf.Round((worldPoint.y/2))*2)), Quaternion.identity);
                     Building r = new Building(buildings.Count, tile);
                     buildings.Add(cellPoint, r);
                     //Debug.Log(GameObject.FindWithTag("building"));
@@ -115,8 +126,8 @@ public class map : MonoBehaviour
                 }
                 
             
-            
-            
+
+
             /*
             if (objects.ContainsKey(world.WorldToCell(worldPoint)))
             {
@@ -126,7 +137,7 @@ public class map : MonoBehaviour
             */
             //Debug.Log(world.WorldToCell(check.transform.position));
             //Debug.Log(world.WorldToCell(worldPoint));
-            
+
             //Destroy(checks[0]);
         }
     }
