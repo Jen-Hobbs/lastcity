@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Building
+public class Building : MonoBehaviour
 {
 
     private int resource = 20;
     private int resourceType;
-    private int position;
-    private GameObject gameObject;
 
-    public Building(int pos, GameObject g)
+    public Building()
     {
-        position = pos;
-        gameObject = g;
     }
-    public int build()
+    public virtual int build()
     {
         if (resource - 10 <= 0)
         {
@@ -29,9 +25,6 @@ public class Building
     {
         return gameObject;
     }
-    public int getPosition()
-    {
-        return position;
-    }
+
 
 }

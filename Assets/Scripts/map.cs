@@ -13,9 +13,10 @@ public class map : MonoBehaviour
     public GameObject[] rock;
     public GameObject[] house;
     public Dictionary<Vector3, Material> materials;
-    public Dictionary<Vector3, Building> buildings;
+    public Dictionary<Vector3, GameObject> buildings;
     public HashSet<Vector3> people;
     public GameObject trials;
+    GameObject tile;
 
     private Vector2 mousePos;
     // Start is called before the first frame update
@@ -59,12 +60,11 @@ public class map : MonoBehaviour
             materials[world.WorldToCell(rock[i].transform.position)] = r;
         }
         Debug.Log("house" + house.Length);
-        buildings = new Dictionary<Vector3, Building>();
+        buildings = new Dictionary<Vector3, GameObject>();
         for (int i = 0; i < house.Length; i++)
         {
             Debug.Log(i);
-            Building b = new Building(i, house[i]);
-            //buildings[world.WorldToCell(house[i].transform.position)] = b;
+            buildings[world.WorldToCell(house[i].transform.position)] = house[i];
         }
 
         people = new HashSet<Vector3>();
@@ -111,23 +111,21 @@ public class map : MonoBehaviour
                 }
                 
             }
+            
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            //transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);
-                Debug.Log("check");
-                if (hit != null && hit.collider == null)
-                {
-                    Debug.Log("cell" + cellPoint);
-                    Debug.Log("mouse" + worldPoint);
-                    Debug.Log("check");
-                    GameObject tile = Instantiate(trials, new Vector3((Mathf.Round((worldPoint.x)/2)*2), (Mathf.Round((worldPoint.y/2))*2)), Quaternion.identity);
-                    Building r = new Building(buildings.Count, tile);
-                    buildings.Add(cellPoint, r);
-                    //Debug.Log(GameObject.FindWithTag("building"));
-                    //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);
-                }
-                
-            
+            //transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);            
+            Debug.Log("check");
+            if (hit != null && hit.collider == null)
+            {
+                tile = Instantiate(trials, new Vector3((Mathf.Round((worldPoint.x) / 2) * 2), (Mathf.Round((worldPoint.y / 2)) * 2)), Quaternion.identity);
+                Debug.Log("hello " + tile.transform.position);
+                buildings.Add(cellPoint, tile);
+                //Debug.Log(GameObject.FindWithTag("building"));
+                //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);
+            }
+
+
 
 
             /*
@@ -141,6 +139,10 @@ public class map : MonoBehaviour
             //Debug.Log(world.WorldToCell(worldPoint));
 
             //Destroy(checks[0]);
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            Destroy(tile);
         }
     }
 }
