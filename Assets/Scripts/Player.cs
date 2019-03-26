@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Nate
+ *
+ **/
 public class Player
 {
     public int food;

@@ -2,7 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Jennifer Hobbs
+ *obsolete
+ **/
 public static class resourceslist
 {
     private static Dictionary<Vector3, Material> resources;

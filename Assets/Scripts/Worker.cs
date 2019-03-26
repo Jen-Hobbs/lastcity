@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Nate
+ *
+ **/
 public class Worker
 {
     public int harvest;

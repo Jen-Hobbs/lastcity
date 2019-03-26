@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Jennifer Hobbs
+ *obsolete
+ **/
 public static class personlist {
     
     private static HashSet<Vector3> person;

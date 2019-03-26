@@ -3,21 +3,28 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
+/**
+ *Author: Jennifer Hobbs
+ *create grid with objects on it
+ **/
 //static class within grid that stores all objects
 public class map : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject build;
+
     public GridLayout world;
     public GameObject[] person;
     public GameObject[] tree;
     public GameObject[] rock;
     public GameObject[] house;
     public Dictionary<Vector3, Material> materials;
-    public Dictionary<Vector3, GameObject> buildings;
+    public static Dictionary<Vector3, GameObject> buildings;
     public HashSet<Vector3> people;
     public GameObject trials;
     GameObject tile;
 
+    
     private Vector2 mousePos;
     // Start is called before the first frame update
     void Start()
@@ -78,6 +85,10 @@ public class map : MonoBehaviour
         //Debug.Log(world.WorldToCell(check.transform.position));
     }
     // Update is called once per frame
+    public void addBuilding(GameObject building)
+    {
+        buildings[world.WorldToCell(building.transform.position)] = building;
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -114,7 +125,8 @@ public class map : MonoBehaviour
             
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            //transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);            
+            //transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);  
+            /*
             Debug.Log("check");
             if (hit != null && hit.collider == null)
             {
@@ -124,7 +136,7 @@ public class map : MonoBehaviour
                 //Debug.Log(GameObject.FindWithTag("building"));
                 //GameObject tile = Instantiate(GameObject.FindWithTag("building"), world.WorldToCell(worldPoint), Quaternion.identity);
             }
-
+            */
 
 
 
@@ -140,9 +152,7 @@ public class map : MonoBehaviour
 
             //Destroy(checks[0]);
         }
-        if (Input.GetMouseButtonDown(1))
-        {
-            Destroy(tile);
-        }
+       
     }
+    
 }

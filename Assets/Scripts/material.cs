@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Jennifer Hobbs
+ *obsolete
+ **/
 public class material : MonoBehaviour
 {
     // Start is called before the first frame update

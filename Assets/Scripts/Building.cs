@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Jennifer Hobbs
+ *building created
+ **/
 public class Building : MonoBehaviour
 {
 

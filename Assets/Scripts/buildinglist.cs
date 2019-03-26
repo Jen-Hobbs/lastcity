@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ *Author: Jennifer Hobbs
+ *list of buildings
+ * obsolete
+ **/
 public static class buildinglist
 {
     

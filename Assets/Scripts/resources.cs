@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
+/**
+ *Author: Jennifer Hobbs
+ *resources information parent of different resources
+ **/
 public abstract class Material
 {
     
