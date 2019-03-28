@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8453620969315693328}
   - component: {fileID: 8425511567836338692}
   - component: {fileID: 3555904203894934970}
+  - component: {fileID: 2408140222174963327}
   m_Layer: 0
   m_Name: mill
   m_TagString: house
@@ -106,3 +107,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.3, y: 3.3}
   m_EdgeRadius: 0
+--- !u!114 &2408140222174963327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862310841258341420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e80b979d23fbc341aebe9c8cb48e337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

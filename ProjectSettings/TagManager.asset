@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - house
+  - rock
+  - tree
+  - person
+  - farm
+  - warehouse
   layers:
   - Default
   - TransparentFX

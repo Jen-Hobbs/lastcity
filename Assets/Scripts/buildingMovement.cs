@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 /**
  * https://stackoverflow.com/questions/1531695/round-to-nearest-five
- * https://www.google.com/search?client=firefox-b-d&q=placing+object+on+grid+unity#kpvalbx=1
+ * https://www.youtube.com/watch?time_continue=5&v=D9ZU0mfukQE
  */
 /**
 *Author: Jennifer Hobbs
@@ -11,20 +11,19 @@ using UnityEngine;
 **/
 public class buildingMovement : MonoBehaviour
 {
-    
-    private GameObject house;
+    [SerializeField] private GridLayout world;
+    [SerializeField] private GameObject house;
     private Vector2 mousePos;
     // Start is called before the first frame update
     void Start()
     {
-         house = GameObject.FindGameObjectWithTag("house");
 
     }
 
+    
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("check");
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.position = new Vector2(Mathf.Round(mousePos.x / 2) * 2, Mathf.Round(mousePos.y / 2) * 2);
 
@@ -34,9 +33,14 @@ public class buildingMovement : MonoBehaviour
     
     void OnMouseDown()
     {
-        house = (GameObject)Instantiate(house, transform.position, Quaternion.identity);
-        // map.addBuilding(house);
-        Destroy(this.gameObject);
+        Vector3 position = world.WorldToCell(transform.position);
+        if (!buildinglist.containsBuilding(position))
+        {
+            house = (GameObject) Instantiate(house, transform.position, Quaternion.identity);
+            buildinglist.addBuilding(position, house);
+            Destroy(this.gameObject);
+        }
+
     }
 
     

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
@@ -35,7 +36,7 @@ public class map : MonoBehaviour
         tree = GameObject.FindGameObjectsWithTag("tree");
         rock = GameObject.FindGameObjectsWithTag("rock");
         person = GameObject.FindGameObjectsWithTag("person");
-        if(house.Length == 0)
+        if (house.Length == 0)
         {
             Debug.Log("no houses");
         }
@@ -54,6 +55,7 @@ public class map : MonoBehaviour
         {
             Debug.Log("no people");
         }
+
         materials = new Dictionary<Vector3, Material>();
         for (int i = 0; i < tree.Length; i++)
         {
@@ -66,11 +68,12 @@ public class map : MonoBehaviour
             Material r = new Rock(i, rock[i]);
             materials[world.WorldToCell(rock[i].transform.position)] = r;
         }
+
         Debug.Log("house" + house.Length);
         buildings = new Dictionary<Vector3, GameObject>();
         for (int i = 0; i < house.Length; i++)
         {
-            Debug.Log(i);
+            Debug.Log("houses " + i);
             buildings[world.WorldToCell(house[i].transform.position)] = house[i];
         }
 
@@ -79,16 +82,23 @@ public class map : MonoBehaviour
         {
             people.Add(world.WorldToCell(person[i].transform.position));
         }
+
         //resourceslist.setResources(materials);
         //personlist.setPeople(people);
-        //buildinglist.setBuildings(buildings);
+        buildinglist.setBuildings(buildings);
         //Debug.Log(world.WorldToCell(check.transform.position));
     }
+
     // Update is called once per frame
+     /*
+      * Jennifer Hobbs
+      */
+     [Obsolete("currently not used")]
     public void addBuilding(GameObject building)
     {
         buildings[world.WorldToCell(building.transform.position)] = building;
     }
+    
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -98,7 +108,12 @@ public class map : MonoBehaviour
             // transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);
 
             
-            
+            /*
+             * On mouse decrease resouces at the mouse click button till run out then delete resource when depleted
+             * feature added into turn function
+             * Obsolete
+             */
+            /*
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
             Vector3 cellPoint = world.WorldToCell(worldPoint);
@@ -122,8 +137,9 @@ public class map : MonoBehaviour
                 }
                 
             }
+            */
             
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+            //RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);            
             //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             //transform.position = new Vector2(Mathf.Round(mousePos.x/2)*2, Mathf.Round(mousePos.y/2)*2);  
             /*

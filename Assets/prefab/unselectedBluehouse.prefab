@@ -119,3 +119,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3902c07080c3d4bad115147a0003b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  world: {fileID: 8625710423492139226, guid: 5ccdd6595d09d904e9e7ded93bf117f2, type: 3}
+  house: {fileID: 8551300968560226621, guid: 372458efbfec54148956e867eb1a58ce, type: 3}
