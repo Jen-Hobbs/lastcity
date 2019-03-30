@@ -24,7 +24,6 @@ public class map : MonoBehaviour
     public HashSet<Vector3> people;
     public GameObject trials;
     GameObject tile;
-
     
     private Vector2 mousePos;
     // Start is called before the first frame update

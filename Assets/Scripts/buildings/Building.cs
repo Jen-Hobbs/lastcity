@@ -7,9 +7,10 @@ using UnityEngine;
  **/
 public abstract class Building : MonoBehaviour
 {
-    
+    internal int foodCost;
+    internal int woodCost;
+    internal int stoneCost;
 
-    private int resourceType;
     void Start()
     {
         build();
@@ -23,4 +24,12 @@ public abstract class Building : MonoBehaviour
         return gameObject;
     }
     public virtual void gather() { }
+    public bool buildable()
+    {
+        if (foodCost > Player.food || woodCost > Player.wood || stoneCost > Player.stone)
+        {
+            return false;
+        }
+        return true;
+    }
 }

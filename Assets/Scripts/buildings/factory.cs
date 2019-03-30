@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class factory : Building
 {
-    // Start is called before the first frame update
-    void Start()
+
+    factory() : base()
     {
-        
+        foodCost = 10;
+        woodCost = 10;
+        stoneCost = 10;
     }
+    // Start is called before the first frame update
     public override void build()
     {
-        Player.food -= 20;
-        Player.wood -= 30;
-        Player.stone -= 30;
+        Player.food -= foodCost;
+        Player.wood -= woodCost;
+        Player.stone -= stoneCost;
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }

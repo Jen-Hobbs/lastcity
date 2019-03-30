@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class house : Building
 {
+
+    house() : base()
+    {
+         foodCost = 10;
+         woodCost = 10;
+         stoneCost = 10;
+}
     // Start is called before the first frame update
     public override void build()
     {
-        Player.food -= 20;
-        Player.wood -= 30;
-        Player.stone -= 30;
+        Player.food -= foodCost;
+        Player.wood -= woodCost;
+        Player.stone -= stoneCost;
     }
+    
 }
