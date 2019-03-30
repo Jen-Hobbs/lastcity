@@ -50,7 +50,7 @@ public class Game : MonoBehaviour
     {
         turn++;
         Player.food -= Player.population;
-
+        buildingTurn();
         foreach (Vector3 v in map.people)
         {
             if(map.materials.ContainsKey(v))
@@ -72,6 +72,15 @@ public class Game : MonoBehaviour
                     map.materials.Remove(v);
                 }
             }
+        }
+    }
+    
+    private void buildingTurn()
+    {
+        GameObject[] house = GameObject.FindGameObjectsWithTag("house");
+        foreach(GameObject i in house)
+        {
+            i.GetComponent<Building>().gather();
         }
     }
     

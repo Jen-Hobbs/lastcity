@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class lab : Building
 {
-    public override int build()
+    public override void build()
     {
-        return 0;
+        Player.food -= 20;
+        Player.wood -= 30;
+        Player.stone -= 30;
     }
+    
 }

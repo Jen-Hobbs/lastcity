@@ -13,8 +13,14 @@ public class farm : Building
 
     }
 
-    public override int build()
+    public override void build()
     {
-        return 0;
+        Player.food -= 20;
+        Player.wood -= 30;
+        Player.stone -= 30;
+    }
+    public override void gather()
+    {
+        Player.food += 5;
     }
 }

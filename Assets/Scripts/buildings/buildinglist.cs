@@ -26,6 +26,10 @@ public static class buildinglist
     {
         building.Remove(position);
     }
+    public static Dictionary<Vector3, GameObject> getAllBuildings()
+    {
+        return building;
+    }
 /*
     public static GameObject getBuilding(Vector3 position)
     {

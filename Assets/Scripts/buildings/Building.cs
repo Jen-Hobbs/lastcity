@@ -10,15 +10,17 @@ public abstract class Building : MonoBehaviour
     
 
     private int resourceType;
-
+    void Start()
+    {
+        build();
+    }
     public Building()
     {
     }
-    public abstract int build();
+    public abstract void build();
     public GameObject GetGameObject()
     {
         return gameObject;
     }
-
-
+    public virtual void gather() { }
 }
