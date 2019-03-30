@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 /**
  *Author: Nate
- *
+ *update: Jennifer
  **/
-public class Player
+public static class Player
 {
-    public int food;
-    public int wood;
-    public int stone;
-    public int population;
+    
+    public static int food { get; set; }
+    public static int wood { get; set; }
+    public static int stone { get; set; }
+    public static int population { get; set; }
 
-    public Player()
+    static Player()
     {
         food = 100;
         wood = 100;

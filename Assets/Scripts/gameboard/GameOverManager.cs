@@ -20,7 +20,12 @@ public class GameOverManager : MonoBehaviour
     //Restarts the game
     public void Restart()
     {
+        Player.food = 100;
+        Player.wood = 100;
+        Player.stone = 50;
+        Player.population = 20;
         SceneManager.LoadScene("MainScene");
+
     }
 
     //Quits the game
