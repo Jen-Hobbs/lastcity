@@ -89,10 +89,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7854001088621929899}
   - component: {fileID: 2666138906116813985}
-  - component: {fileID: 6679483413544494864}
-  - component: {fileID: 9140456805643485067}
+  - component: {fileID: 351393630162592012}
+  - component: {fileID: 712996549089990529}
   m_Layer: 0
-  m_Name: boy1
+  m_Name: MovingWorker
   m_TagString: person
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6679483413544494864
+--- !u!61 &351393630162592012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500857489830557202}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.86, y: 5.49}
+    newSize: {x: 2.86, y: 5.49}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.86, y: 5.49}
+  m_EdgeRadius: 0
+--- !u!114 &712996549089990529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,25 +198,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 500857489830557202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0ca54ad3543e584ba8273c449c70f67, type: 3}
+  m_Script: {fileID: 11500000, guid: 268b315ba6e71a24292fb7d48b4df6d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worker: {fileID: 500857489830557202, guid: a45e3a871ad9dd34db66d000b777502d, type: 3}
   world: {fileID: 8625710423492139226, guid: 5ccdd6595d09d904e9e7ded93bf117f2, type: 3}
   map: {fileID: 8625710423492139220, guid: 5ccdd6595d09d904e9e7ded93bf117f2, type: 3}
---- !u!65 &9140456805643485067
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500857489830557202}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.86, y: 5.49, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  worker: {fileID: 500857489830557202, guid: 5fe39648f6dd97d42b8c6d5a1b778cfb, type: 3}
 --- !u!1 &3853468041352310375
 GameObject:
   m_ObjectHideFlags: 0
