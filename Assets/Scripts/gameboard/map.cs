@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Debug = UnityEngine.Debug;
+
 /**
  *Author: Jennifer Hobbs
  *create grid with objects on it
@@ -21,7 +24,7 @@ public class map : MonoBehaviour
     public GameObject[] house;
     public Dictionary<Vector3, Material> materials;
     public static Dictionary<Vector3, GameObject> buildings;
-    public HashSet<Vector3> people;
+    public static HashSet<Vector3> people;
     public GameObject trials;
     GameObject tile;
     
@@ -79,6 +82,8 @@ public class map : MonoBehaviour
         people = new HashSet<Vector3>();
         for (int i = 0; i < person.Length; i++)
         {
+            Debug.Log(person.Length);
+            Debug.Log("position " + world.WorldToCell(person[i].transform.position));
             people.Add(world.WorldToCell(person[i].transform.position));
         }
 
