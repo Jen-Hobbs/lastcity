@@ -22,7 +22,7 @@ public class map : MonoBehaviour
     public GameObject[] tree;
     public GameObject[] rock;
     public GameObject[] house;
-    public Dictionary<Vector3, Material> materials;
+    public static Dictionary<Vector3, Material> materials;
     public static Dictionary<Vector3, GameObject> buildings;
     public static HashSet<Vector3> people;
     public GameObject trials;
