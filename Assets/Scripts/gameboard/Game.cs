@@ -51,6 +51,7 @@ public class Game : MonoBehaviour
         turn++;
         Player.food -= Player.population;
         buildingTurn();
+        buildBuilding();
         foreach (Vector3 v in map.people)
         {
             if(map.materials.ContainsKey(v))
@@ -81,6 +82,14 @@ public class Game : MonoBehaviour
         foreach(GameObject i in house)
         {
             i.GetComponent<Building>().gather();
+        }
+    }
+    private void buildBuilding()
+    {
+        GameObject[] house = GameObject.FindGameObjectsWithTag("unbuilt");
+        foreach (GameObject i in house)
+        {
+            i.GetComponent<buildBuilding>().countTurn();
         }
     }
     

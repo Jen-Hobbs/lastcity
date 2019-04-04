@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   world: {fileID: 8625710423492139226, guid: 5ccdd6595d09d904e9e7ded93bf117f2, type: 3}
-  house: {fileID: 5748771824539483436, guid: 977c6726cd062bc43a8b2a398d3d487f, type: 3}
+  house: {fileID: 6105604005818631413, guid: bf2104a25e73c2b4fb31b2218233e828, type: 3}
 --- !u!1001 &8803613587179665169
 PrefabInstance:
   m_ObjectHideFlags: 0
