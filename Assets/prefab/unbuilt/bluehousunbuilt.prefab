@@ -89,9 +89,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7149768726909612319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 403843fc9230835479f8fa05b5e1de55, type: 3}
+  m_Script: {fileID: 11500000, guid: 316e962f2ec7fc14aac08030cbcdf857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   building: {fileID: 8551300968560226621, guid: 372458efbfec54148956e867eb1a58ce,
     type: 3}
-  buildturns: 3
+  buildturns: 1
