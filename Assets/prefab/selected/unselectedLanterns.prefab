@@ -29,7 +29,7 @@ PrefabInstance:
     - target: {fileID: 5748771824539483436, guid: 977c6726cd062bc43a8b2a398d3d487f,
         type: 3}
       propertyPath: m_TagString
-      value: house
+      value: unselected
       objectReference: {fileID: 0}
     - target: {fileID: 723955650215469412, guid: 977c6726cd062bc43a8b2a398d3d487f,
         type: 3}

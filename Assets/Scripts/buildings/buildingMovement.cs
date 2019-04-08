@@ -1,27 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/**
- * https://stackoverflow.com/questions/1531695/round-to-nearest-five
- * https://www.youtube.com/watch?time_continue=5&v=D9ZU0mfukQE
- */
-/**
-*Author: Jennifer Hobbs
-*move house around the map
-**/
+
+/// <summary>
+/// https://stackoverflow.com/questions/1531695/round-to-nearest-five
+/// https://www.youtube.com/watch?time_continue=5&v=D9ZU0mfukQE
+/// Author Jennifer Hobbs
+/// Allows building to move across the map
+/// TODO: add game object to add building of actuall buildt object rather then unbuilt game object?
+/// </summary>
+
 public class buildingMovement : MonoBehaviour
 {
-    private Camera cam;
+    
     [SerializeField] private GridLayout world;
     [SerializeField] private GameObject house;
     private Vector2 mousePos;
-    // Start is called before the first frame update
-    void Start()
-    {
-        cam = Camera.main;
-    }
 
-    
+
+    /// <summary>
+    /// From camera main at a sceen to world point transform curser to only follow grid pattern
+    /// if mouse is clicked building is addded to list and an unbuilt game object is added to game
+    /// </summary>
     // Update is called once per frame
     void Update()
     {
@@ -45,33 +45,9 @@ public class buildingMovement : MonoBehaviour
                 buildinglist.addBuilding(position, house);
                 Destroy(this.gameObject);
             }
-            // Cast a ray straight down.
-            
-
-            /*
-             else if (hit.collider != null)
-             {
-                 
-                 house = (GameObject) Instantiate(house, transform.position, Quaternion.identity);
-                 buildinglist.addBuilding(position, house);
-                 Destroy(this.gameObject);
-             }
-             */
+ 
         }
 
     }
-    /*
-    void OnMouseDown()
-    {
-        Vector3 position = world.WorldToCell(transform.position);
-        if (!buildinglist.containsBuilding(position))
-        {
-            house = (GameObject) Instantiate(house, transform.position, Quaternion.identity);
-            buildinglist.addBuilding(position, house);
-            Destroy(this.gameObject);
-        }
-        
-    }
-
-    */
+ 
 }

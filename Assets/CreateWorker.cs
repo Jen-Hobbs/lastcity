@@ -11,12 +11,16 @@ public class CreateWorker : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Vector3 position = world.WorldToCell(transform.position);
-        Debug.Log(position);
-        Debug.Log(map.people.Contains(position));
-        map.people.Remove(position);
-        Destroy(gameObject);
-        GameObject movingWorker = Instantiate<GameObject>(worker, transform.position, Quaternion.identity);
-        movingWorker.GetComponent<WorkerMovement>().map = map;
+        GameObject unselected = GameObject.FindWithTag("unselected");
+        if (unselected == null)
+        {
+            Vector3 position = world.WorldToCell(transform.position);
+            Debug.Log(position);
+            Debug.Log(map.people.Contains(position));
+            map.people.Remove(position);
+            Destroy(gameObject);
+            GameObject movingWorker = Instantiate<GameObject>(worker, transform.position, Quaternion.identity);
+            movingWorker.GetComponent<WorkerMovement>().map = map;
+        }
     }
 }

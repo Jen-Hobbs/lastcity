@@ -26,6 +26,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: unselectedYellowroof
       objectReference: {fileID: 0}
+    - target: {fileID: 3306191029711166923, guid: 38864029fab76cc45bd0a7d9365abb5c,
+        type: 3}
+      propertyPath: m_TagString
+      value: unselected
+      objectReference: {fileID: 0}
     - target: {fileID: 8867754713670068420, guid: 38864029fab76cc45bd0a7d9365abb5c,
         type: 3}
       propertyPath: m_LocalPosition.x

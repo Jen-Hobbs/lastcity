@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// buildi building parent class
+/// Author Jennifer Hobbs
+/// </summary>
 public class buildHouse : buildBuilding
 {
     public buildHouse() : base()

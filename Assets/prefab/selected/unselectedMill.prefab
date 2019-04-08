@@ -26,6 +26,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: unselectedMill
       objectReference: {fileID: 0}
+    - target: {fileID: 5862310841258341420, guid: 250f736e320cdce438273cf8f5deb23d,
+        type: 3}
+      propertyPath: m_TagString
+      value: unselected
+      objectReference: {fileID: 0}
     - target: {fileID: 8453620969315693328, guid: 250f736e320cdce438273cf8f5deb23d,
         type: 3}
       propertyPath: m_LocalPosition.x

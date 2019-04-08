@@ -3,7 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// Author Jennifer Hobbs
+/// builds building by counting how many turns it has been then builds the building
+/// once built the buildbuilding object is deleted
+/// </summary>
 public abstract class buildBuilding : MonoBehaviour
 {
 
@@ -13,12 +17,23 @@ public abstract class buildBuilding : MonoBehaviour
     internal int foodCost;
     internal int woodCost;
     internal int stoneCost;
+    /// <summary>
+    /// start buy calling build method and instantiate counter
+    /// </summary>
     void Start()
     {
         build();
         counter = 0;
     }
+    /// <summary>
+    ///
+    /// takes costs of building building away from player
+    /// </summary>
     public abstract void build();
+   /// <summary>
+   /// checks if building is buildable based on play food wook and stone
+   /// </summary>
+   /// <returns>true if buildable</returns>
     public bool buildable()
     {
         if (foodCost > Player.food || woodCost > Player.wood || stoneCost > Player.stone)
@@ -27,7 +42,9 @@ public abstract class buildBuilding : MonoBehaviour
         }
         return true;
     }
-    // Start is called before the first frame update
+    /// <summary>
+    /// turn counter until built
+    /// </summary>
     public void countTurn()
     {
         if (counter == buildturns)

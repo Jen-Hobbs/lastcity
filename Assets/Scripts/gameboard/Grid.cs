@@ -5,6 +5,9 @@ using UnityEngine.Tilemaps;
 
 public class Grid : MonoBehaviour
 {
+    /// <summary>
+    /// obsolete
+    /// </summary>
     public Tilemap tilemap;
     public GridLayout world;
     public TileBase tile;

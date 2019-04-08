@@ -11,6 +11,7 @@ TagManager:
   - farm
   - warehouse
   - unbuilt
+  - unselected
   layers:
   - Default
   - TransparentFX
