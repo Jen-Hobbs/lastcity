@@ -87,7 +87,7 @@ public class map : MonoBehaviour
             people.Add(world.WorldToCell(person[i].transform.position));
         }
 
-        //resourceslist.setResources(materials);
+        resourceslist.setResources(materials);
         //personlist.setPeople(people);
         buildinglist.setBuildings(buildings);
         //Debug.Log(world.WorldToCell(check.transform.position));

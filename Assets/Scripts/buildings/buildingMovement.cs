@@ -33,19 +33,30 @@ public class buildingMovement : MonoBehaviour
         {
             Vector3 position = world.WorldToCell(transform.position);
             Vector2 mouse = Input.mousePosition;
+            
             if (mouse.y < 200)
             {
                 Destroy(this.gameObject);
             }
-           
-            else if(!buildinglist.containsBuilding(position))
+            else if(!buildinglist.containsBuilding(position) && !resourceslist.containsResource(position))
             {
                 
                 house = (GameObject) Instantiate(house, transform.position, Quaternion.identity);
                 buildinglist.addBuilding(position, house);
                 Destroy(this.gameObject);
             }
+            // Cast a ray straight down.
+            
 
+            /*
+             else if (hit.collider != null)
+             {
+                 
+                 house = (GameObject) Instantiate(house, transform.position, Quaternion.identity);
+                 buildinglist.addBuilding(position, house);
+                 Destroy(this.gameObject);
+             }
+             */
         }
 
     }

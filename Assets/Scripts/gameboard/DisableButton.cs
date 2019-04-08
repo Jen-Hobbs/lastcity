@@ -6,21 +6,38 @@ using UnityEngine.UI;
 
 public class DisableButton : MonoBehaviour
 {
-    private buildBuilding building;
-    public Button button;
+    private buildBuilding[] buildings;
+    private buildBuilding house;
+    private buildBuilding lab;
+    private buildBuilding farm;
+    private buildBuilding factory;
+    public Button[] buttons;
     void Start()
     {
-        building = new buildHouse();
+        house = new buildHouse();
+        lab = new buildLab();
+        factory= new buildFactory();
+        farm = new buildFarm();
+        buildings = new buildBuilding[4];
+        buildings[0] = house;
+        buildings[1] = factory;
+        buildings[2] = house;
+        buildings[3] = lab;
     }
     void Update()
     {
-            if (building.buildable() == false)
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            if (buildings[i].buildable() == false)
             {
-                button.interactable = false;
+                buttons[i].interactable = false;
             }
             else{
-                button.interactable = true;
+                buttons[i].interactable = true;
             }
+
+           
+        }
         }
 }
 

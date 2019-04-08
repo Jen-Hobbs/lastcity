@@ -28,6 +28,13 @@ public static class resourceslist
 
     public static Boolean containsResource(Vector3 position)
     {
-        return resources.ContainsKey(position);
+        Debug.Log(position);
+        if (resources.ContainsKey(position))
+        {
+            Debug.Log("position contains building");
+            return true;
+        }
+        Debug.Log("position doesnt contain building");
+        return false;
     }
 }

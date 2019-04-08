@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +37,141 @@
         <entry file="file://$PROJECT_DIR$/Assets/SelectHouse.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <marker date="1553804207263" expanded="false" signature="6:78" ph="..." />
                 <marker date="1553804207263" expanded="true" signature="79:127" ph="/* Author: Jennifer Hobbs ... */" />
                 <marker date="1553804207263" expanded="true" signature="168:369" ph="{...}" />
                 <marker date="1553804207263" expanded="true" signature="269:362" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="89" column="46" lean-forward="true" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+              <folding>
+                <marker date="1554747364630" expanded="false" signature="6:204" ph="..." />
+                <marker date="1554747364630" expanded="true" signature="206:272" ph="/* Author: Jennifer Hobbs ... */" />
+                <marker date="1554747364630" expanded="true" signature="356:6026" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="881:2822" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="1269:1325" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="1356:1411" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="1442:1497" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="1530:1586" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="1690:1831" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="1878:2019" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="2169:2309" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="2399:2616" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="2868:2902" ph="/* Jennifer Hobbs ... */" />
+                <marker date="1554747364630" expanded="true" signature="2989:3079" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="3102:6019" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="3149:6005" ph="{...}" />
+                <marker date="1554747364630" expanded="true" signature="3185:3357" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
+                <marker date="1554747364630" expanded="true" signature="3384:3590" ph="/* On mouse decrease resouces at the mouse click button till run out then delete resource when depleted ... */" />
+                <marker date="1554747364630" expanded="true" signature="3603:4700" ph="/* Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); ... */" />
+                <marker date="1554747364630" expanded="true" signature="4726:4990" ph="/* RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction); ... */" />
+                <marker date="1554747364630" expanded="true" signature="5003:5602" ph="/* Debug.Log(&quot;check&quot;); ... */" />
+                <marker date="1554747364630" expanded="true" signature="5618:5834" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
+                <marker date="1554747364630" expanded="true" signature="5847:5995" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="48" selection-start-line="48" selection-end-line="49" />
+              <folding>
+                <marker date="1554747472058" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554747472058" expanded="true" signature="79:218" ph="/* https://stackoverflow.com/questions/1531695/round-to-nearest-five ... */" />
+                <marker date="1554747472058" expanded="true" signature="219:277" ph="/* Author: Jennifer Hobbs ... */" />
+                <marker date="1554747472058" expanded="true" signature="323:2261" ph="{...}" />
+                <marker date="1554747472058" expanded="true" signature="543:582" ph="{...}" />
+                <marker date="1554747472058" expanded="true" signature="645:1873" ph="{...}" />
+                <marker date="1554747472058" expanded="true" signature="882:1866" ph="{...}" />
+                <marker date="1554747472058" expanded="true" signature="1055:1125" ph="{...}" />
+                <marker date="1554747472058" expanded="true" signature="1232:1476" ph="{...}" />
+                <marker date="1554747472058" expanded="true" signature="1544:1856" ph="/* else if (hit.collider != null) ... */" />
+                <marker date="1554747472058" expanded="true" signature="1878:2259" ph="/* void OnMouseDown() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <marker date="1554747472124" expanded="false" signature="6:92" ph="..." />
+                <marker date="1554747472124" expanded="true" signature="93:137" ph="/* Author: Jennifer Hobbs ... */" />
+                <marker date="1554747472124" expanded="true" signature="171:875" ph="{...}" />
+                <marker date="1554747472124" expanded="true" signature="303:338" ph="{...}" />
+                <marker date="1554747472124" expanded="true" signature="396:444" ph="{...}" />
+                <marker date="1554747472124" expanded="true" signature="502:550" ph="{...}" />
+                <marker date="1554747472124" expanded="true" signature="612:873" ph="{...}" />
+                <marker date="1554747472124" expanded="true" signature="692:790" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <marker date="1554741967897" expanded="false" signature="6:100" ph="..." />
+                <marker date="1554741967897" expanded="true" signature="241:1092" ph="{...}" />
+                <marker date="1554741967897" expanded="true" signature="459:766" ph="{...}" />
+                <marker date="1554741967897" expanded="true" signature="784:1090" ph="{...}" />
+                <marker date="1554741967897" expanded="true" signature="839:1080" ph="{...}" />
+                <marker date="1554741967897" expanded="true" signature="900:977" ph="{...}" />
+                <marker date="1554741967897" expanded="true" signature="977:1057" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <marker date="1554742646053" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554742646053" expanded="true" signature="117:434" ph="{...}" />
+                <marker date="1554742646053" expanded="true" signature="150:233" ph="{...}" />
+                <marker date="1554742646053" expanded="true" signature="319:432" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+              <folding>
+                <marker date="1554241006176" expanded="false" signature="6:92" ph="..." />
+                <marker date="1554241006176" expanded="true" signature="93:158" ph="/* Author: Jennifer Hobbs ... */" />
+                <marker date="1554241006176" expanded="true" signature="191:1131" ph="{...}" />
+                <marker date="1554241006176" expanded="true" signature="331:365" ph="{...}" />
+                <marker date="1554241006176" expanded="true" signature="436:483" ph="{...}" />
+                <marker date="1554241006176" expanded="true" signature="540:587" ph="{...}" />
+                <marker date="1554241006176" expanded="true" signature="655:692" ph="{...}" />
+                <marker date="1554241006176" expanded="true" signature="693:808" ph="/* public static GameObject getBuilding(Vector3 position) ... */" />
+                <marker date="1554241006176" expanded="true" signature="869:1129" ph="{...}" />
+                <marker date="1554241006176" expanded="true" signature="948:1046" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,99 +186,6 @@
                 <marker date="1554242735720" expanded="false" signature="6:78" ph="..." />
                 <marker date="1554242735720" expanded="true" signature="122:667" ph="{...}" />
                 <marker date="1554242735720" expanded="true" signature="271:665" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
-              <folding>
-                <marker date="1554251572731" expanded="false" signature="6:204" ph="..." />
-                <marker date="1554251572731" expanded="true" signature="206:272" ph="/* Author: Jennifer Hobbs ... */" />
-                <marker date="1554251572731" expanded="true" signature="356:6028" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="881:2824" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="1269:1325" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="1356:1411" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="1442:1497" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="1530:1586" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="1690:1831" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="1878:2019" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="2169:2309" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="2399:2616" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="2626:2706" ph="/* resourceslist.setResources(materials); ... */" />
-                <marker date="1554251572731" expanded="true" signature="2870:2904" ph="/* Jennifer Hobbs ... */" />
-                <marker date="1554251572731" expanded="true" signature="2991:3081" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="3104:6021" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="3151:6007" ph="{...}" />
-                <marker date="1554251572731" expanded="true" signature="3187:3359" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
-                <marker date="1554251572731" expanded="true" signature="3386:3592" ph="/* On mouse decrease resouces at the mouse click button till run out then delete resource when depleted ... */" />
-                <marker date="1554251572731" expanded="true" signature="3605:4702" ph="/* Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); ... */" />
-                <marker date="1554251572731" expanded="true" signature="4728:4992" ph="/* RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction); ... */" />
-                <marker date="1554251572731" expanded="true" signature="5005:5604" ph="/* Debug.Log(&quot;check&quot;); ... */" />
-                <marker date="1554251572731" expanded="true" signature="5620:5836" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
-                <marker date="1554251572731" expanded="true" signature="5849:5997" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="33" column="69" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="69" />
-              <folding>
-                <marker date="1554251222904" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554251222904" expanded="true" signature="79:218" ph="/* https://stackoverflow.com/questions/1531695/round-to-nearest-five ... */" />
-                <marker date="1554251222904" expanded="true" signature="219:277" ph="/* Author: Jennifer Hobbs ... */" />
-                <marker date="1554251222904" expanded="true" signature="323:1836" ph="{...}" />
-                <marker date="1554251222904" expanded="true" signature="543:582" ph="{...}" />
-                <marker date="1554251222904" expanded="true" signature="645:1448" ph="{...}" />
-                <marker date="1554251222904" expanded="true" signature="882:1441" ph="{...}" />
-                <marker date="1554251222904" expanded="true" signature="1042:1112" ph="{...}" />
-                <marker date="1554251222904" expanded="true" signature="1186:1430" ph="{...}" />
-                <marker date="1554251222904" expanded="true" signature="1453:1834" ph="/* void OnMouseDown() ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/buildBuilding.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-              <folding>
-                <marker date="1554252546341" expanded="true" signature="6:92" ph="..." />
-                <marker date="1554252546341" expanded="true" signature="136:576" ph="{...}" />
-                <marker date="1554252546341" expanded="true" signature="230:263" ph="{...}" />
-                <marker date="1554252546341" expanded="true" signature="337:574" ph="{...}" />
-                <marker date="1554252546341" expanded="true" signature="369:540" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <marker date="1554241006176" expanded="false" signature="6:92" ph="..." />
-                <marker date="1554241006176" expanded="true" signature="93:158" ph="/* Author: Jennifer Hobbs ... */" />
-                <marker date="1554241006176" expanded="true" signature="191:1131" ph="{...}" />
-                <marker date="1554241006176" expanded="true" signature="331:365" ph="{...}" />
-                <marker date="1554241006176" expanded="true" signature="436:483" ph="{...}" />
-                <marker date="1554241006176" expanded="true" signature="540:587" ph="{...}" />
-                <marker date="1554241006176" expanded="true" signature="655:692" ph="{...}" />
-                <marker date="1554241006176" expanded="true" signature="693:808" ph="/* public static GameObject getBuilding(Vector3 position) ... */" />
-                <marker date="1554241006176" expanded="true" signature="869:1129" ph="{...}" />
-                <marker date="1554241006176" expanded="true" signature="948:1046" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -163,10 +206,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/SelectHouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC10DD4A-D9F3-4AA9-8E69-1E49A48C7111/20/8132d056/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/buildBuilding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CreateWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,14 +231,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/buildingMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/SelectHouse.cs" />
         <option value="$PROJECT_DIR$/Assets/CreateWorker.cs" />
+        <option value="$PROJECT_DIR$/Assets/buildBuilding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/buildBuilding.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="614" />
+    <option name="x" value="464" />
     <option name="width" value="759" />
     <option name="height" value="745" />
   </component>
@@ -202,11 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -225,6 +268,11 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,11 +324,12 @@
       <workItem from="1553793662786" duration="6780000" />
       <workItem from="1554241905502" duration="1237000" />
       <workItem from="1554244789946" duration="7388000" />
+      <workItem from="1554740627944" duration="6782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48931000" />
+    <option name="totallyTimeSpent" value="55713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,8 +342,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1732224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -365,6 +415,54 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildingMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/house.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/farm.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/house.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/buildBuilding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1554741967897" expanded="false" signature="6:100" ph="..." />
+            <marker date="1554741967897" expanded="true" signature="241:1092" ph="{...}" />
+            <marker date="1554741967897" expanded="true" signature="459:766" ph="{...}" />
+            <marker date="1554741967897" expanded="true" signature="784:1090" ph="{...}" />
+            <marker date="1554741967897" expanded="true" signature="839:1080" ph="{...}" />
+            <marker date="1554741967897" expanded="true" signature="900:977" ph="{...}" />
+            <marker date="1554741967897" expanded="true" signature="977:1057" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1554742646053" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554742646053" expanded="true" signature="117:434" ph="{...}" />
+            <marker date="1554742646053" expanded="true" signature="150:233" ph="{...}" />
+            <marker date="1554742646053" expanded="true" signature="319:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CreateWorker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -377,32 +475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/house.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SelectHouse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1553804207263" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553804207263" expanded="true" signature="79:127" ph="/* Author: Jennifer Hobbs ... */" />
-            <marker date="1553804207263" expanded="true" signature="168:369" ph="{...}" />
-            <marker date="1553804207263" expanded="true" signature="269:362" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="5">
+          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding>
             <marker date="1554241006176" expanded="false" signature="6:92" ph="..." />
             <marker date="1554241006176" expanded="true" signature="93:158" ph="/* Author: Jennifer Hobbs ... */" />
@@ -418,68 +494,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SelectHouse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="33" column="69" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="69" />
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1554251222904" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554251222904" expanded="true" signature="79:218" ph="/* https://stackoverflow.com/questions/1531695/round-to-nearest-five ... */" />
-            <marker date="1554251222904" expanded="true" signature="219:277" ph="/* Author: Jennifer Hobbs ... */" />
-            <marker date="1554251222904" expanded="true" signature="323:1836" ph="{...}" />
-            <marker date="1554251222904" expanded="true" signature="543:582" ph="{...}" />
-            <marker date="1554251222904" expanded="true" signature="645:1448" ph="{...}" />
-            <marker date="1554251222904" expanded="true" signature="882:1441" ph="{...}" />
-            <marker date="1554251222904" expanded="true" signature="1042:1112" ph="{...}" />
-            <marker date="1554251222904" expanded="true" signature="1186:1430" ph="{...}" />
-            <marker date="1554251222904" expanded="true" signature="1453:1834" ph="/* void OnMouseDown() ... */" />
+            <marker date="1553804207263" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553804207263" expanded="true" signature="79:127" ph="/* Author: Jennifer Hobbs ... */" />
+            <marker date="1553804207263" expanded="true" signature="168:369" ph="{...}" />
+            <marker date="1553804207263" expanded="true" signature="269:362" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="263">
+          <caret line="89" column="46" lean-forward="true" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
           <folding>
-            <marker date="1554251572731" expanded="false" signature="6:204" ph="..." />
-            <marker date="1554251572731" expanded="true" signature="206:272" ph="/* Author: Jennifer Hobbs ... */" />
-            <marker date="1554251572731" expanded="true" signature="356:6028" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="881:2824" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="1269:1325" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="1356:1411" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="1442:1497" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="1530:1586" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="1690:1831" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="1878:2019" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="2169:2309" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="2399:2616" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="2626:2706" ph="/* resourceslist.setResources(materials); ... */" />
-            <marker date="1554251572731" expanded="true" signature="2870:2904" ph="/* Jennifer Hobbs ... */" />
-            <marker date="1554251572731" expanded="true" signature="2991:3081" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="3104:6021" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="3151:6007" ph="{...}" />
-            <marker date="1554251572731" expanded="true" signature="3187:3359" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
-            <marker date="1554251572731" expanded="true" signature="3386:3592" ph="/* On mouse decrease resouces at the mouse click button till run out then delete resource when depleted ... */" />
-            <marker date="1554251572731" expanded="true" signature="3605:4702" ph="/* Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); ... */" />
-            <marker date="1554251572731" expanded="true" signature="4728:4992" ph="/* RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction); ... */" />
-            <marker date="1554251572731" expanded="true" signature="5005:5604" ph="/* Debug.Log(&quot;check&quot;); ... */" />
-            <marker date="1554251572731" expanded="true" signature="5620:5836" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
-            <marker date="1554251572731" expanded="true" signature="5849:5997" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
+            <marker date="1554747364630" expanded="false" signature="6:204" ph="..." />
+            <marker date="1554747364630" expanded="true" signature="206:272" ph="/* Author: Jennifer Hobbs ... */" />
+            <marker date="1554747364630" expanded="true" signature="356:6026" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="881:2822" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="1269:1325" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="1356:1411" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="1442:1497" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="1530:1586" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="1690:1831" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="1878:2019" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="2169:2309" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="2399:2616" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="2868:2902" ph="/* Jennifer Hobbs ... */" />
+            <marker date="1554747364630" expanded="true" signature="2989:3079" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="3102:6019" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="3149:6005" ph="{...}" />
+            <marker date="1554747364630" expanded="true" signature="3185:3357" ph="/* mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); ... */" />
+            <marker date="1554747364630" expanded="true" signature="3384:3590" ph="/* On mouse decrease resouces at the mouse click button till run out then delete resource when depleted ... */" />
+            <marker date="1554747364630" expanded="true" signature="3603:4700" ph="/* Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); ... */" />
+            <marker date="1554747364630" expanded="true" signature="4726:4990" ph="/* RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction); ... */" />
+            <marker date="1554747364630" expanded="true" signature="5003:5602" ph="/* Debug.Log(&quot;check&quot;); ... */" />
+            <marker date="1554747364630" expanded="true" signature="5618:5834" ph="/* if (objects.ContainsKey(world.WorldToCell(worldPoint))) ... */" />
+            <marker date="1554747364630" expanded="true" signature="5847:5995" ph="/* Debug.Log(world.WorldToCell(check.transform.position)); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/buildBuilding.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="60">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1554252546341" expanded="true" signature="6:92" ph="..." />
-            <marker date="1554252546341" expanded="true" signature="136:576" ph="{...}" />
-            <marker date="1554252546341" expanded="true" signature="230:263" ph="{...}" />
-            <marker date="1554252546341" expanded="true" signature="337:574" ph="{...}" />
-            <marker date="1554252546341" expanded="true" signature="369:540" ph="{...}" />
+            <marker date="1554747472124" expanded="false" signature="6:92" ph="..." />
+            <marker date="1554747472124" expanded="true" signature="93:137" ph="/* Author: Jennifer Hobbs ... */" />
+            <marker date="1554747472124" expanded="true" signature="171:875" ph="{...}" />
+            <marker date="1554747472124" expanded="true" signature="303:338" ph="{...}" />
+            <marker date="1554747472124" expanded="true" signature="396:444" ph="{...}" />
+            <marker date="1554747472124" expanded="true" signature="502:550" ph="{...}" />
+            <marker date="1554747472124" expanded="true" signature="612:873" ph="{...}" />
+            <marker date="1554747472124" expanded="true" signature="692:790" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="48" selection-start-line="48" selection-end-line="49" />
+          <folding>
+            <marker date="1554747472058" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554747472058" expanded="true" signature="79:218" ph="/* https://stackoverflow.com/questions/1531695/round-to-nearest-five ... */" />
+            <marker date="1554747472058" expanded="true" signature="219:277" ph="/* Author: Jennifer Hobbs ... */" />
+            <marker date="1554747472058" expanded="true" signature="323:2261" ph="{...}" />
+            <marker date="1554747472058" expanded="true" signature="543:582" ph="{...}" />
+            <marker date="1554747472058" expanded="true" signature="645:1873" ph="{...}" />
+            <marker date="1554747472058" expanded="true" signature="882:1866" ph="{...}" />
+            <marker date="1554747472058" expanded="true" signature="1055:1125" ph="{...}" />
+            <marker date="1554747472058" expanded="true" signature="1232:1476" ph="{...}" />
+            <marker date="1554747472058" expanded="true" signature="1544:1856" ph="/* else if (hit.collider != null) ... */" />
+            <marker date="1554747472058" expanded="true" signature="1878:2259" ph="/* void OnMouseDown() ... */" />
           </folding>
         </state>
       </provider>
