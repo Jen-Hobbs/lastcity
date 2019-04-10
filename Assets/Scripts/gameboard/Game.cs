@@ -49,7 +49,10 @@ public class Game : MonoBehaviour
     public void TakeTurn()
     {
         turn++;
+
+        Player.food += Player.foodYield;
         Player.food -= Player.population;
+        
         buildingTurn();
         
         
@@ -65,11 +68,11 @@ public class Game : MonoBehaviour
                 map.materials[v].farm();
                 if(map.materials[v].type() == "tree")
                 {
-                    Player.wood += 10;
+                    Player.wood += (int)(10 * Player.yieldMultiplier);
                 }
                 if (map.materials[v].type() == "rock")
                 {
-                    Player.stone += 10;
+                    Player.stone += (int)(10 * Player.yieldMultiplier);
                 }
                 if(map.materials[v].type() == "food")
                 {

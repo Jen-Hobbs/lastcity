@@ -25,4 +25,16 @@ public class buildFarm : buildBuilding
         Player.wood -= woodCost;
         Player.stone -= stoneCost;
     }
+
+    public override void countTurn()
+    {
+        if (counter == buildturns)
+        {
+            building = (GameObject)Instantiate(building, transform.position, Quaternion.identity);
+            Debug.Log("Food Yield: " + Player.foodYield);
+            Destroy(this.gameObject);
+        }
+        counter++;
+
+    }
 }

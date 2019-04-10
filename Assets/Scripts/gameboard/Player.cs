@@ -12,6 +12,9 @@ public static class Player
     public static int wood { get; set; }
     public static int stone { get; set; }
     public static int population { get; set; }
+    public static int foodYield { get; set; }
+    public static double yieldMultiplier { get; set; }
+
 
     static Player()
     {
@@ -19,5 +22,7 @@ public static class Player
         wood = 100;
         stone = 50;
         population = 20;
+        foodYield = 0;
+        yieldMultiplier = 1.0;
     }
 }

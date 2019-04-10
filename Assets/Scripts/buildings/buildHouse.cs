@@ -8,6 +8,8 @@ using UnityEngine;
 /// </summary>
 public class buildHouse : buildBuilding
 {
+    [SerializeField] internal GameObject worker;
+
     public buildHouse() : base()
     {
         foodCost = 10;
@@ -20,5 +22,19 @@ public class buildHouse : buildBuilding
         Player.food -= foodCost;
         Player.wood -= woodCost;
         Player.stone -= stoneCost;
+    }
+
+
+    public override void countTurn()
+    {
+        if (counter == buildturns)
+        {
+            building = (GameObject)Instantiate(building, transform.position, Quaternion.identity);
+            worker = (GameObject)Instantiate(worker, transform.position, Quaternion.identity);
+            Player.population += 5;
+            Destroy(this.gameObject);
+        }
+        counter++;
+
     }
 }

@@ -10,6 +10,7 @@ public class SelectHouse : MonoBehaviour
     // Start is called before the first frame update
     public void createhouse(GameObject house)
     {
+        Debug.Log("it clicked");
         Instantiate<GameObject>(house, transform.position, Quaternion.identity);
     }
     
