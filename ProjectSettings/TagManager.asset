@@ -12,6 +12,7 @@ TagManager:
   - warehouse
   - unbuilt
   - unselected
+  - food
   layers:
   - Default
   - TransparentFX

@@ -71,7 +71,10 @@ public class Game : MonoBehaviour
                 {
                     Player.stone += 10;
                 }
-
+                if(map.materials[v].type() == "food")
+                {
+                    Player.food += 10;
+                }
                 if(map.materials[v].getResource() == 0)
                 {
                     

@@ -18,10 +18,11 @@ public class map : MonoBehaviour
     private GameObject build;
 
     public GridLayout world;
-    public GameObject[] person;
-    public GameObject[] tree;
-    public GameObject[] rock;
-    public GameObject[] house;
+    private GameObject[] person;
+    private GameObject[] tree;
+    private GameObject[] rock;
+    private GameObject[] house;
+    private GameObject[] food;
     public static Dictionary<Vector3, Material> materials;
     public static Dictionary<Vector3, GameObject> buildings;
     public static HashSet<Vector3> people;
@@ -37,6 +38,7 @@ public class map : MonoBehaviour
         //check = GameObject.FindWithTag("house");
         tree = GameObject.FindGameObjectsWithTag("tree");
         rock = GameObject.FindGameObjectsWithTag("rock");
+        food = GameObject.FindGameObjectsWithTag("food");
         person = GameObject.FindGameObjectsWithTag("person");
         if (house.Length == 0)
         {
@@ -57,14 +59,21 @@ public class map : MonoBehaviour
         {
             Debug.Log("no people");
         }
-
+        if(food.Length == 0)
+        {
+            Debug.Log("no food");
+        }
         materials = new Dictionary<Vector3, Material>();
         for (int i = 0; i < tree.Length; i++)
         {
             Material r = new tree(i, tree[i]);
             materials[world.WorldToCell(tree[i].transform.position)] = r;
         }
-
+        for (int i = 0; i < food.Length; i++)
+        {
+            Material r = new Food(i, food[i]);
+            materials[world.WorldToCell(food[i].transform.position)] = r;
+        }
         for (int i = 0; i < rock.Length; i++)
         {
             Material r = new Rock(i, rock[i]);
