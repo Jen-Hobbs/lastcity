@@ -11,12 +11,13 @@ using UnityEngine.UI;
 public abstract class buildBuilding : MonoBehaviour
 {
 
-    [SerializeField]private GameObject building;
-    [SerializeField] private int buildturns;
-    private int counter;
+    [SerializeField]internal GameObject building;
+    [SerializeField] internal int buildturns;
+    internal int counter;
     internal int foodCost;
     internal int woodCost;
     internal int stoneCost;
+
     /// <summary>
     /// start buy calling build method and instantiate counter
     /// </summary>
@@ -45,7 +46,7 @@ public abstract class buildBuilding : MonoBehaviour
     /// <summary>
     /// turn counter until built
     /// </summary>
-    public void countTurn()
+    public virtual void countTurn()
     {
         if (counter == buildturns)
         {

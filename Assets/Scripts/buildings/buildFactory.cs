@@ -23,4 +23,16 @@ public class buildFactory : buildBuilding
         Player.wood -= woodCost;
         Player.stone -= stoneCost;
     }
+
+    public override void countTurn()
+    {
+        if (counter == buildturns)
+        {
+            building = (GameObject)Instantiate(building, transform.position, Quaternion.identity);
+            Player.yieldMultiplier += 0.1;
+            Destroy(this.gameObject);
+        }
+        counter++;
+
+    }
 }

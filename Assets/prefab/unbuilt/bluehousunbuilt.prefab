@@ -95,3 +95,4 @@ MonoBehaviour:
   building: {fileID: 8551300968560226621, guid: 372458efbfec54148956e867eb1a58ce,
     type: 3}
   buildturns: 1
+  worker: {fileID: 500857489830557202, guid: 5fe39648f6dd97d42b8c6d5a1b778cfb, type: 3}

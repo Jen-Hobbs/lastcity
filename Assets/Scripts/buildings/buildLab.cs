@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 /// <summary>
 /// Builds Lab object based on cost
@@ -13,7 +14,7 @@ public class buildLab : buildBuilding
     public buildLab() : base()
     {
         foodCost = 10;
-        woodCost = 110;
+        woodCost = 10;
         stoneCost = 10;
     }
     /// <summary>
@@ -24,5 +25,17 @@ public class buildLab : buildBuilding
         Player.food -= foodCost;
         Player.wood -= woodCost;
         Player.stone -= stoneCost;
+    }
+
+    public override void countTurn()
+    {
+        if (counter == buildturns)
+        {
+            building = (GameObject)Instantiate(building, transform.position, Quaternion.identity);
+            SceneManager.LoadScene("WinScreen");
+            Destroy(this.gameObject);
+        }
+        counter++;
+
     }
 }
