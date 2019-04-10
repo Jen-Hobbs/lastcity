@@ -49,12 +49,11 @@ public class Game : MonoBehaviour
     public void TakeTurn()
     {
         turn++;
-
+        buildingTurn();
         Player.food += Player.foodYield;
         Player.food -= Player.population;
         
-        buildingTurn();
-        
+
         
         foreach (Vector3 v in map.people)
         {
@@ -87,18 +86,22 @@ public class Game : MonoBehaviour
             }
         }
     }
+    
     /// <summary>
     /// checks each building that to gather food
     /// TODO: base it on list and not TAG?
     /// </summary>
     private void buildingTurn()
     {
-        GameObject[] house = GameObject.FindGameObjectsWithTag("house");
+        GameObject[] house = GameObject.FindGameObjectsWithTag("farm");
+        
         foreach(GameObject i in house)
         {
+            Debug.Log("house");
             i.GetComponent<Building>().gather();
         }
     }
+    
     /// <summary>
     /// work on building building if player is on the building at the end of the turn
     /// </summary>

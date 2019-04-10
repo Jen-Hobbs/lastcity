@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2294668281625904663}
   m_Layer: 0
   m_Name: mill
-  m_TagString: house
+  m_TagString: farm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

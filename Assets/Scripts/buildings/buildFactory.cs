@@ -10,17 +10,13 @@ public class buildFactory : buildBuilding
     /// </summary>
     public buildFactory() : base()
     {
-        foodCost = 10;
-        woodCost = 10;
-        stoneCost = 10;
+        stoneCost = 50;
     }
     /// <summary>
     /// takes costs away from player
     /// </summary>
     public override void build()
     {
-        Player.food -= foodCost;
-        Player.wood -= woodCost;
         Player.stone -= stoneCost;
     }
 

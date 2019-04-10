@@ -14,7 +14,6 @@ public abstract class buildBuilding : MonoBehaviour
     [SerializeField]internal GameObject building;
     [SerializeField] internal int buildturns;
     internal int counter;
-    internal int foodCost;
     internal int woodCost;
     internal int stoneCost;
 
@@ -37,7 +36,7 @@ public abstract class buildBuilding : MonoBehaviour
    /// <returns>true if buildable</returns>
     public bool buildable()
     {
-        if (foodCost > Player.food || woodCost > Player.wood || stoneCost > Player.stone)
+        if (woodCost > Player.wood || stoneCost > Player.stone)
         {
             return false;
         }

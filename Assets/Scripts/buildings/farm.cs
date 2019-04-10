@@ -15,7 +15,7 @@ public class farm : Building
 
     public override void gather()
     {
-        Player.food += 5;
+        Player.food += 20;
     }
 
 }

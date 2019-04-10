@@ -13,16 +13,14 @@ public class buildLab : buildBuilding
     /// </summary>
     public buildLab() : base()
     {
-        foodCost = 10;
-        woodCost = 10;
-        stoneCost = 10;
+        woodCost = 200;
+        stoneCost = 200;
     }
     /// <summary>
     /// deletes cost of building resource
     /// </summary>
     public override void build()
     {
-        Player.food -= foodCost;
         Player.wood -= woodCost;
         Player.stone -= stoneCost;
     }

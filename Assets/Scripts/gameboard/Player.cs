@@ -21,7 +21,7 @@ public static class Player
         food = 100;
         wood = 100;
         stone = 50;
-        population = 20;
+        population = 5;
         foodYield = 0;
         yieldMultiplier = 1.0;
     }

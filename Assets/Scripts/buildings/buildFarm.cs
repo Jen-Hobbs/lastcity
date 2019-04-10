@@ -12,18 +12,16 @@ public class buildFarm : buildBuilding
     /// </summary>
     public buildFarm() : base()
     {
-        foodCost = 10;
-        woodCost = 10;
-        stoneCost = 10;
+
+        woodCost = 100;
+
     }
     /// <summary>
     /// takes food, stone and wood away from player when build building is instantiated
     /// </summary>
     public override void build()
     {
-        Player.food -= foodCost;
         Player.wood -= woodCost;
-        Player.stone -= stoneCost;
     }
 
     public override void countTurn()

@@ -10,11 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8867754713670068420}
   - component: {fileID: 2108806356218056787}
-  - component: {fileID: 1595175537779939131}
   - component: {fileID: 1416853237702758838}
   m_Layer: 0
   m_Name: yellowroof house
-  m_TagString: house
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,18 +80,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1595175537779939131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3306191029711166923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02077305d4449024ab2ccf0b0e2b6d3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1416853237702758838
 BoxCollider2D:
   m_ObjectHideFlags: 0
