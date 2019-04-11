@@ -3,24 +3,99 @@
   <component name="ChangeListManager">
     <list default="true" id="71b39620-d5c3-47cf-ac0e-fa900d864486" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lastcity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CreateWorker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CreateWorker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildBuilding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildBuilding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildFarm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildFarm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildHouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildHouse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/buildings/createHouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buildings/createHouse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/gameboard/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gameboard/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/gameboard/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gameboard/Grid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/selected/unselectedBluehouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/selected/unselectedBluehouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/selected/unselectedLanterns.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/selected/unselectedLanterns.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/selected/unselectedMill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/selected/unselectedMill.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/selected/unselectedYellowroof.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/selected/unselectedYellowroof.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/resources/resources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/resources/resources.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AIModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AIModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ARModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ARModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AccessibilityModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AccessibilityModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AnimationModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AnimationModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AssetBundleModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AssetBundleModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AudioModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.AudioModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.BaselibModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.BaselibModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ClothModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ClothModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ClusterInputModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ClusterInputModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ClusterRendererModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ClusterRendererModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.CoreModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.CoreModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.CrashReportingModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.CrashReportingModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.DirectorModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.DirectorModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.FileSystemHttpModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.FileSystemHttpModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.GameCenterModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.GameCenterModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.GridModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.GridModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.HotReloadModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.HotReloadModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.IMGUIModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.IMGUIModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ImageConversionModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ImageConversionModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.InputModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.InputModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.JSONSerializeModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.JSONSerializeModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.LocalizationModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.LocalizationModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ParticleSystemModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ParticleSystemModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.PerformanceReportingModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.PerformanceReportingModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.Physics2DModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.Physics2DModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.PhysicsModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.PhysicsModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ProfilerModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ProfilerModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ScreenCaptureModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.ScreenCaptureModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SharedInternalsModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SharedInternalsModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SpriteMaskModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SpriteMaskModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SpriteShapeModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SpriteShapeModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.StreamingModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.StreamingModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.StyleSheetsModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.StyleSheetsModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SubstanceModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.SubstanceModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TLSModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TLSModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TerrainModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TerrainModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TerrainPhysicsModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TerrainPhysicsModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TextCoreModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TextCoreModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TextRenderingModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TextRenderingModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TilemapModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TilemapModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TimelineModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.TimelineModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UIElementsModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UIElementsModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UIModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UIModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UNETModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UNETModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UmbraModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UmbraModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityAnalyticsModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityAnalyticsModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityConnectModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityConnectModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityTestProtocolModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityTestProtocolModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestAudioModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestAudioModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestTextureModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestTextureModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestWWWModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.UnityWebRequestWWWModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VFXModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VFXModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VRModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VRModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VehiclesModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VehiclesModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VideoModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.VideoModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.WindModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.WindModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.XRModule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.XRModule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/Managed/UnityEngine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/app.info" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/app.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/level1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/level2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/sharedassets0.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last City_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Last City_Data/sharedassets2.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/2.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/4.5/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/browscap.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/config" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MonoBleedingEdge/etc/mono/mconfig/config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +122,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="255">
               <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
               <folding>
-                <marker date="1554760784929" expanded="false" signature="6:100" ph="..." />
-                <marker date="1554760784929" expanded="true" signature="101:214" ph="///  ... " />
+                <marker date="1554760784929" expanded="true" signature="101:214" ph="/// Disables a buttons based on resource availability and the cost it takes to build ... " />
                 <marker date="1554760784929" expanded="true" signature="355:1467" ph="{...}" />
-                <marker date="1554760784929" expanded="true" signature="561:817" ph="///  ... " />
+                <marker date="1554760784929" expanded="true" signature="561:817" ph="/// check all buttons and the cost of each house disabling the buttons when resources available are less then ... " />
                 <marker date="1554760784929" expanded="true" signature="834:1141" ph="{...}" />
                 <marker date="1554760784929" expanded="true" signature="1159:1465" ph="{...}" />
                 <marker date="1554760784929" expanded="true" signature="1214:1455" ph="{...}" />
@@ -67,27 +141,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/Game.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="96" column="85" selection-start-line="96" selection-start-column="85" selection-end-line="96" selection-end-column="85" />
+            <state relative-caret-position="1380">
+              <caret line="105" column="85" selection-start-line="105" selection-start-column="85" selection-end-line="105" selection-end-column="85" />
               <folding>
-                <marker date="1554760784973" expanded="false" signature="6:135" ph="..." />
-                <marker date="1554760784973" expanded="true" signature="170:2787" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="420:706" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="764:1120" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="798:866" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1168:2066" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1316:2060" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1376:1437" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1482:2050" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1608:1683" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1738:1814" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="1871:2036" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="2071:2195" ph="///  ... " />
-                <marker date="1554760784973" expanded="true" signature="2227:2420" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="2345:2414" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="2425:2543" ph="///  ... " />
-                <marker date="1554760784973" expanded="true" signature="2576:2780" ph="{...}" />
-                <marker date="1554760784973" expanded="true" signature="2697:2774" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="170:3071" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="420:706" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="764:1120" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="798:866" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="1168:1199" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="2709:2827" ph="/// work on building building if player is on the building at the end of the turn ... " />
+                <marker date="1554925429604" expanded="true" signature="2860:3064" ph="{...}" />
+                <marker date="1554925429604" expanded="true" signature="2981:3058" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,10 +160,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/GameOverManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
+            <state relative-caret-position="30">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <marker date="1554241006224" expanded="false" signature="6:113" ph="..." />
                 <marker date="1554241006224" expanded="true" signature="159:644" ph="{...}" />
                 <marker date="1554241006224" expanded="true" signature="231:252" ph="{...}" />
                 <marker date="1554241006224" expanded="true" signature="310:331" ph="{...}" />
@@ -110,21 +173,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/Grid.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildHouse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <marker date="1554760785004" expanded="false" signature="6:106" ph="..." />
-                <marker date="1554760785004" expanded="true" signature="141:2360" ph="{...}" />
-                <marker date="1554760785004" expanded="true" signature="148:197" ph="///  ... " />
-                <marker date="1554760785004" expanded="true" signature="409:1019" ph="{...}" />
-                <marker date="1554760785004" expanded="true" signature="424:1013" ph="/* BoundsInt bounds = tilemap.cellBounds; ... */" />
-                <marker date="1554760785004" expanded="true" signature="1077:2358" ph="{...}" />
-                <marker date="1554760785004" expanded="true" signature="1125:2352" ph="{...}" />
-                <marker date="1554760785004" expanded="true" signature="1367:1554" ph="/* GameObject tile = Instantiate(bluehouse, worldPoint, Quaternion.identity); ... */" />
-                <marker date="1554760785004" expanded="true" signature="1782:2342" ph="/* Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition); ... */" />
+                <marker date="1554925429566" expanded="true" signature="80:167" ph="/// buildi building parent class ... " />
+                <marker date="1554925429566" expanded="true" signature="207:856" ph="{...}" />
+                <marker date="1554925429566" expanded="true" signature="848:854" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/resources/resources.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#91#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,7 +214,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/Building.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SelectHouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildinglist.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/factory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/farm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/resources/resourceslist.cs" root0="FORCE_HIGHLIGHTING" />
@@ -153,7 +221,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildingMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildHouse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/house.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildBuilding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildFarm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildLab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -161,9 +228,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/GameOverManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/Grid.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CreateWorker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/buildings/lab.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -197,6 +262,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameboard/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameboard/Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/resources/resources.cs" />
       </list>
     </option>
   </component>
@@ -210,7 +276,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -241,9 +309,7 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -298,11 +364,12 @@
       <workItem from="1554244789946" duration="7388000" />
       <workItem from="1554740627944" duration="8871000" />
       <workItem from="1554759126610" duration="1647000" />
+      <workItem from="1554926051999" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59449000" />
+    <option name="totallyTimeSpent" value="59468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +383,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -499,20 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildHouse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <marker date="1554760462695" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554760462695" expanded="true" signature="80:167" ph="///  ... " />
-            <marker date="1554760462695" expanded="true" signature="207:525" ph="{...}" />
-            <marker date="1554760462695" expanded="true" signature="242:324" ph="{...}" />
-            <marker date="1554760462695" expanded="true" signature="410:523" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildFarm.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -666,13 +719,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/DisableButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
+        <state relative-caret-position="255">
           <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
           <folding>
-            <marker date="1554760784929" expanded="false" signature="6:100" ph="..." />
-            <marker date="1554760784929" expanded="true" signature="101:214" ph="///  ... " />
+            <marker date="1554760784929" expanded="true" signature="101:214" ph="/// Disables a buttons based on resource availability and the cost it takes to build ... " />
             <marker date="1554760784929" expanded="true" signature="355:1467" ph="{...}" />
-            <marker date="1554760784929" expanded="true" signature="561:817" ph="///  ... " />
+            <marker date="1554760784929" expanded="true" signature="561:817" ph="/// check all buttons and the cost of each house disabling the buttons when resources available are less then ... " />
             <marker date="1554760784929" expanded="true" signature="834:1141" ph="{...}" />
             <marker date="1554760784929" expanded="true" signature="1159:1465" ph="{...}" />
             <marker date="1554760784929" expanded="true" signature="1214:1455" ph="{...}" />
@@ -684,37 +736,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/Game.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="96" column="85" selection-start-line="96" selection-start-column="85" selection-end-line="96" selection-end-column="85" />
+        <state relative-caret-position="1380">
+          <caret line="105" column="85" selection-start-line="105" selection-start-column="85" selection-end-line="105" selection-end-column="85" />
           <folding>
-            <marker date="1554760784973" expanded="false" signature="6:135" ph="..." />
-            <marker date="1554760784973" expanded="true" signature="170:2787" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="420:706" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="764:1120" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="798:866" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1168:2066" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1316:2060" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1376:1437" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1482:2050" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1608:1683" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1738:1814" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="1871:2036" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="2071:2195" ph="///  ... " />
-            <marker date="1554760784973" expanded="true" signature="2227:2420" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="2345:2414" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="2425:2543" ph="///  ... " />
-            <marker date="1554760784973" expanded="true" signature="2576:2780" ph="{...}" />
-            <marker date="1554760784973" expanded="true" signature="2697:2774" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="170:3071" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="420:706" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="764:1120" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="798:866" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="1168:1199" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="2709:2827" ph="/// work on building building if player is on the building at the end of the turn ... " />
+            <marker date="1554925429604" expanded="true" signature="2860:3064" ph="{...}" />
+            <marker date="1554925429604" expanded="true" signature="2981:3058" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameboard/GameOverManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
+        <state relative-caret-position="30">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1554241006224" expanded="false" signature="6:113" ph="..." />
             <marker date="1554241006224" expanded="true" signature="159:644" ph="{...}" />
             <marker date="1554241006224" expanded="true" signature="231:252" ph="{...}" />
             <marker date="1554241006224" expanded="true" signature="310:331" ph="{...}" />
@@ -728,16 +769,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/buildings/buildHouse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
-            <marker date="1554760785004" expanded="false" signature="6:106" ph="..." />
-            <marker date="1554760785004" expanded="true" signature="141:2360" ph="{...}" />
-            <marker date="1554760785004" expanded="true" signature="148:197" ph="///  ... " />
-            <marker date="1554760785004" expanded="true" signature="409:1019" ph="{...}" />
-            <marker date="1554760785004" expanded="true" signature="424:1013" ph="/* BoundsInt bounds = tilemap.cellBounds; ... */" />
-            <marker date="1554760785004" expanded="true" signature="1077:2358" ph="{...}" />
-            <marker date="1554760785004" expanded="true" signature="1125:2352" ph="{...}" />
-            <marker date="1554760785004" expanded="true" signature="1367:1554" ph="/* GameObject tile = Instantiate(bluehouse, worldPoint, Quaternion.identity); ... */" />
-            <marker date="1554760785004" expanded="true" signature="1782:2342" ph="/* Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)Input.mousePosition); ... */" />
+            <marker date="1554925429566" expanded="true" signature="80:167" ph="/// buildi building parent class ... " />
+            <marker date="1554925429566" expanded="true" signature="207:856" ph="{...}" />
+            <marker date="1554925429566" expanded="true" signature="848:854" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/resources/resources.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
           </folding>
         </state>
       </provider>

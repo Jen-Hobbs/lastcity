@@ -9,7 +9,7 @@ using UnityEngine;
 public abstract class Material
 {
     
-    private int resource = 20;
+    private int resource = 50;
     private int resourceType;
     private int position;
     private GameObject gameObject;
